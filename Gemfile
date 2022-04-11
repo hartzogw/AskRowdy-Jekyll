@@ -2,7 +2,7 @@
 source "https://rubygems.org"
 gem "webrick"
 Gem::Specification.new do |spec|
-    spec.name          = "temp-site"
+    spec.name          = "askrowdy-jekyll"
     spec.version       = "0.1.0"
     spec.authors       = ["shingleskis"]
     spec.email         = ["jwhartzog99@gmail.com"]
@@ -18,3 +18,4 @@ Gem::Specification.new do |spec|
 
 gem "jekyll", "~> 4.2"
 gem "jekyll-sitemap"
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
