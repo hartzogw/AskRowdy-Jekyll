@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Help Center: CS Grad Student</title>
+</head>
+<body>
+    <header>
+
+    <div class=row>
+        <a class=col-3 href=../index.html><img src="https://semo-cscy.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F659091e9-71af-45fb-9941-0a685f0c4e23%2FUntitled.png?table=block&id=a2f12d10-fd31-4b79-aa74-ea5f5fc3eedd&spaceId=4021a294-21ef-4cd2-90d8-f2296171446b&width=2000&userId=&cache=v2" alt="SEMO Logo"></a>
+        <h1 class= col-9>Ask Rowdy - Student Help Center</h1>
+    </div>
+    <div class=row>
+        <div class="topnav" class=col-12>
+          <a href="#home" class="active-mobile">New Students</a>
+          <!-- Navigation links (hidden by default) -->
+          <div id="myLinks">
+            <a href="#news">Computer Science</a>
+            <a href="#contact">CyberSecurity</a>
+          </div>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <nav id="nav_menu" class=col-12>
+            <ul>
+                <li><a href="index.html" class= "current">Prospective Students</a>
+                <li><a href="new-students.html">New Students</a>
+                <li><a href="current-students.html">Current Students</a>
+            </ul>
+        </nav>
+    </div>
+      
+
+    </header>
+    <main>
+       <section id=cs-cy-button class=row class=col-12>
+            <button class=cs-cy-buttons id=csBtn>Computer Science</button>
+            <button class = cs-cy-buttons id=cyBtn>Cybersecurity</button>
+            </section>
+        <div class=row>
+            <img id=img-content class=col-2 src="https://images.pexels.com/photos/163125/board-printed-circuit-board-computer-electronics-163125.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="Circuit Board Computer Electronics"> 
+           
+            <aside class= col-3 id="mobile-aside">
+                <button>Programs</button>
+                <button>Tuition and Scholarship</button>
+                <button>Jobs</button>
+                <button>Enrollment</button>
+                <button>Quick Links</button>
+                <button>Graduation</button>  
+            </aside> 
+
+            <section id=accordion-content class=col-7>
+                <button class="accordion">Program Overview</button>
+                    <div class="panel">
+                        <p>Jekyll is a static site generator with built-in support for GitHub Pages and a simplified build process. Jekyll takes Markdown and HTML files and creates a complete static website based on your choice of layouts. Jekyll supports Markdown and Liquid, a templating language that loads dynamic content on your site.</p>
+                    </div>
+                    <button class="accordion">Curriculum</button>
+                    <div class="panel">
+                        <p>{{example.md}}</p>
+                    </div>
+                    <button class="accordion">Program Eligibility</button>
+                    <div class="panel">
+                        <p></p>
+                    </div>
+                    <button class="accordion">Pre-requisites</button>
+                    <div class="panel">
+                        <p></p>
+                    </div>
+                    <button class="accordion">Faculty and Staff</button>
+                    <div class="panel">
+                        <p></p>
+                    </div>
+                    <button class="accordion">FAQ</button>
+                    <div class="panel">
+                        <p></p>
+                    </div>
+            </section>
+            <aside class= col-3 id="desktop-aside">
+                <button>Programs</button>
+                <button>Tuition and Scholarship</button>
+                <button>Jobs</button>
+                <button>Enrollment</button>
+                <button>Quick Links</button>
+                <button>Graduation</button>  
+            </aside> 
+        </div>
+
+       
+        
+    </main>
+    <footer> 
+        <p>Contact Us</p>
+    </footer>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                /* Toggle between adding and removing the "active" class,
+                to highlight the button that controls the panel */
+                this.classList.toggle("active");
+
+            /* Toggle between hiding and showing the active panel */
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+            }
+          });
+        }
+
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+<html>

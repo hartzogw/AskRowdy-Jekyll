@@ -1,0 +1,322 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-bottom: 11em;
+}
+
+#mobile-aside{
+    display: none;
+}
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+    border: white;
+    display: none;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial Black;
+    display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+    color: white;
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active-mobile {
+  background-color: black;
+  color: white;
+}
+
+/* grid */
+* {
+  box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: .5em;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Header */
+header {
+    background-color: lightgray;
+    height: auto;
+    width: 100%;
+}
+
+header img{
+
+    width: 80%;
+    max-width: 100%;
+}
+
+header h1{
+    margin-top: .2em;
+    font-size: 3em;
+
+    font-style: bold;
+    font-family: Arial Black, sans-serif;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+/* CS and CY Buttons */
+#cs-cy-button{
+    display: flex;
+    justify-content: center;
+}
+
+#cs-cy-button button{
+    background-color: #C8102E;
+    border: none;
+    border-radius: .5em;
+    color: white;
+    text-align: center;
+    font-family: Arial Black;
+    font-size: .8em;
+    padding: .6em;
+    margin-top: 0.75em;
+    width: 20%;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#cs-cy-button button:hover{
+    background-color: black;
+}
+
+#csBtn{
+    margin-right: .25em;
+}
+#cyBtn{
+    margin-left: .25em;
+}
+#img-content{
+    max-width: 100%;
+    height: 20em;
+}
+
+
+footer{
+    position:-webkit-sticky;
+    position:sticky;
+    width:100%;
+    height:3.5em;
+    bottom: 0;
+    text-align: center;
+    background-color: #C8102E;
+}
+footer p {
+    font-family: Arial Black;
+    font-size: 1em;
+    display:inline-block;
+    color: white;
+}
+
+aside a:hover, aside a:focus {
+    color: maroon;
+}
+
+aside {
+    padding-bottom: 3.5em;
+}
+aside button {
+    background-color: #5B6670;
+    color: white;
+    width:100%;
+    text-align: center;
+    font: Arial Black;
+    font-size: 1em;
+    border-color: white;
+    font-family: Arial Black;
+    border-radius: .5em;
+    white-space: nowrap;
+}
+.accordion {
+    background-color: #A2AAAD;
+    color: black;
+    cursor: pointer;
+    padding: .5em 0 .5em 0;
+    margin-bottom: .2em;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    border-color: white;
+    transition: 0.4s;
+    font-family: Arial Black;
+    border-radius: .5em;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\25BC'; /* Unicode character for "plus" sign (+) */
+    font-size: 1.2em;
+    color: white;
+    float: right;
+    /*margin-left: .5em;
+    margin-right: .2em;*/
+}
+
+.active:after {
+  content: "\25B2"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  border-color: #5B6670;
+  border-style: solid;
+  border-radius: .5em;
+  display: none;
+  /*overflow: hidden;*/
+}
+
+#nav_menu {
+    position: relative;
+    float: right;
+    background-color: lightgray;
+}
+
+#nav_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    float: right;
+    flex-basis: 100%;
+}
+
+#nav_menu ul li {
+    float: right;
+    display: in-line block;
+    padding-right: 1em;
+}
+
+#nav_menu li a {
+    font-size: 1.5em;
+    font: Arial-Black;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-color: #C8102E;
+    font-family: Arial Black;
+    font-feature-settings: "liga", "kern";
+}
+
+#nav_menu ul li a.current {
+    color: black;
+}
+
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#mobile_menu {
+    display: none;
+}
+
+
+@media only screen and (max-width: 900px) {
+  /* For mobile devices: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    #desktop-aside{
+        display: none;
+    }
+    #mobile-aside {
+        display: block;
+    }
+    aside button {
+        width: 49.5%;
+    }
+    #nav_menu{
+        display: none;
+    }
+    .topnav{
+        display:block;
+    }
+    #mobile_menu{
+        display:block;
+    }
+    #img-content {
+        display: none;
+    }
+    header img {
+        display: none;
+    }
+    header h1 {
+        font-size: 1.3em;
+    }
+    #cs-cy-button button {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    aside button {
+        width: 100%;
+    }
+    header h1{
+        font-size: 1em;
+    }
+}
