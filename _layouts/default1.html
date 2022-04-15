@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    {% include head.html %}
+</head>
+<body>
+    {% include header.html %}
+    <main>
+        {% include cs-cy-buttons.html %}
+        <div class=row>
+            {% include image.html %}
+            <!--Due to the way the HTML is written the mobile-aside.html needs to stay above accordions.html in this HTML file. 
+                This is how I was able to get this menu above the accordions instead of besided them in a mobile viewport. WH-->
+            {% include mobile-aside.html %} 
+            {% include accordions.html %}
+            {% include desktop-aside.html %}
+        </div>
+    </main>
+    {% include footer.html %}
+</body>
+<html>

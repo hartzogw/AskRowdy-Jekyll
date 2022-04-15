@@ -182,6 +182,11 @@ aside button {
     border-radius: .5em;
     white-space: nowrap;
 }
+
+aside button:hover{
+    background-color: black;
+}
+
 .accordion {
     background-color: #A2AAAD;
     color: black;
