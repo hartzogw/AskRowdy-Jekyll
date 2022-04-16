@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/new-student-cs-program/2022/04/15/heres-another.html</loc>
+<lastmod>2022-04-15T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2022/04/15/program-eligibility.html</loc>
+<lastmod>2022-04-15T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/prospective-students/application-details.html</loc>
+<lastmod>2022-04-15T18:12:50-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/prospective-students/program-eligibility.html</loc>
+<lastmod>2022-04-15T18:13:05-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/prospective-students/program-snapshot.html</loc>
+<lastmod>2022-04-15T18:12:26-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/prospective-students/tuition-and-scholarship.html</loc>
+<lastmod>2022-04-15T18:11:01-05:00</lastmod>
 </url>
 </urlset>
