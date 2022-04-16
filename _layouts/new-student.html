@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Help Center: CS Grad Student</title>
+</head>
+<body>
+    {% include header.html %}
+    <main>
+        {% include cs-cy-buttons.html %}
+        <div class=row>
+            {% include image.html %}
+            <!--Due to the way the HTML is written the mobile-aside.html needs to stay above accordions.html in this HTML file. 
+                This is how I was able to get this menu above the accordions instead of besided them in a mobile viewport. WH-->
+            <aside class= col-3 id="mobile-aside">
+                <button>Programs</button>
+                <button>Tuition and Scholarship</button>
+                <button>Jobs</button>
+                <button>Enrollment</button>
+                <button>Quick Links</button>
+                <button>Graduation</button>
+            </aside>
+            <section id=accordion-content class=col-7>
+            {% for post in site.posts %}
+                {% if post.category == page.category %}
+                {% include accordions1.html %}
+                {% endif %}
+            {% endfor %}
+            </section>
+            <aside class= col-3 id="desktop-aside">
+                <button>Programs</button>
+                <button>Tuition and Scholarship</button>
+                <button>Jobs</button>
+                <button>Enrollment</button>
+                <button>Quick Links</button>
+                <button>Graduation</button>  
+            </aside> 
+        </div>
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+    
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    /* Toggle between adding and removing the "active" class,
+                    to highlight the button that controls the panel */
+                    this.classList.toggle("active");
+    
+                /* Toggle between hiding and showing the active panel */
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                      panel.style.display = "none";
+                    } else {
+                      panel.style.display = "block";
+                }
+              });
+            }
+        </script>
+    </main>
+    {% include footer.html %}
+</body>
+<html>

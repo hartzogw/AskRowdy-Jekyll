@@ -1,6 +1,10 @@
 <html lang="en">
 <head>
-    {% include head.html %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Help Center: CS Grad Student</title>
 </head>
 <body>
     {% include header.html %}
@@ -10,7 +14,14 @@
             {% include image.html %}
             <!--Due to the way the HTML is written the mobile-aside.html needs to stay above accordions.html in this HTML file. 
                 This is how I was able to get this menu above the accordions instead of besided them in a mobile viewport. WH-->
-            {% include mobile-aside.html %} 
+            <aside class= col-3 id="mobile-aside">
+                <button>Programs</button>
+                <button>Tuition and Scholarship</button>
+                <button>Jobs</button>
+                <button>Enrollment</button>
+                <button>Quick Links</button>
+                <button>Graduation</button>
+            </aside>
             <section id=accordion-content class=col-7>
             {% for post in site.posts %}
                 {% if post.category == page.category %}
@@ -18,7 +29,14 @@
                 {% endif %}
             {% endfor %}
             </section>
-            {% include desktop-aside.html %}
+            <aside class= col-3 id="desktop-aside">
+                <button>Programs</button>
+                <button>Tuition and Scholarship</button>
+                <button>Jobs</button>
+                <button>Enrollment</button>
+                <button>Quick Links</button>
+                <button>Graduation</button>  
+            </aside> 
         </div>
         <script>
             var acc = document.getElementsByClassName("accordion");
