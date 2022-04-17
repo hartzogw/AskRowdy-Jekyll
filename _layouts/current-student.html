@@ -2,12 +2,51 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Help Center: CS Grad Student</title>
 </head>
 <body>
-    {% include header.html %}
+    <header>
+
+        <div class=row>
+            <a class=col-3 href=../index.html><img src="https://semo-cscy.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F659091e9-71af-45fb-9941-0a685f0c4e23%2FUntitled.png?table=block&id=a2f12d10-fd31-4b79-aa74-ea5f5fc3eedd&spaceId=4021a294-21ef-4cd2-90d8-f2296171446b&width=2000&userId=&cache=v2" alt="SEMO Logo"></a>
+            <h1 class= col-9>Ask Rowdy - Student Help Center</h1>
+        </div>
+        <div class=row>
+            <div class="topnav" class=col-12>
+              <a href="../prospective-students/programs.html">Prospective Students</a>
+              <!-- Navigation links (hidden by default) -->
+              <div id="myLinks">
+                <a href="#news">New Students</a>
+                <a href="#contact">Current Students</a>
+              </div>
+              <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <p id=noDisplay>Alternate Text</p><i class="fa fa-bars"></i>
+              </a>
+            </div>
+            
+            <nav id="nav_menu" class=col-12>
+                <ul>
+                    <li><a href="index.html"{% if page.studentType == 'Prospective Student' %} class= "current"{% endif %}>Prospective Students</a>
+                    <li><a href="../new-students/page.html">New Students</a>
+                    <li><a href="current-students.html">Current Students</a>
+                </ul>
+            </nav>
+        </div>
+          
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+    </header>
     <main>
         {% include cs-cy-buttons.html %}
         <div class=row>
@@ -15,27 +54,29 @@
             <!--Due to the way the HTML is written the mobile-aside.html needs to stay above accordions.html in this HTML file. 
                 This is how I was able to get this menu above the accordions instead of besided them in a mobile viewport. WH-->
             <aside class= col-3 id="mobile-aside">
-                <button>Programs</button>
-                <button>Tuition and Scholarship</button>
-                <button>Jobs</button>
-                <button>Enrollment</button>
-                <button>Quick Links</button>
-                <button>Graduation</button>
+                <button onclick="window.location.href='../current-students/course_info.html';">Course Info</button>
+                <button onclick="window.location.href='../current-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>
+                <button onclick="window.location.href='../current-students/jobs.html';">Jobs</button>
+                <button onclick="window.location.href='../current-students/enrollment.html';">Enrollment</button>
+                <button onclick="window.location.href='../current-students/faq.html';">FAQ</button>
+                <button onclick="window.location.href='../current-students/quick_links.html';">Quick Links</button>
+                <button onclick="window.location.href='../current-students/graduation.html';">Graduation</button>
             </aside>
             <section id=accordion-content class=col-7>
             {% for post in site.posts %}
-                {% if post.category == page.category %}
+                {% if post.category == page.pageCategory %}
                 {% include accordions1.html %}
                 {% endif %}
             {% endfor %}
             </section>
             <aside class= col-3 id="desktop-aside">
-                <button>Programs</button>
-                <button>Tuition and Scholarship</button>
-                <button>Jobs</button>
-                <button>Enrollment</button>
-                <button>Quick Links</button>
-                <button>Graduation</button>  
+                <button onclick="window.location.href='../current-students/course_info.html';">Course Info</button>
+                <button onclick="window.location.href='../current-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>
+                <button onclick="window.location.href='../current-students/jobs.html';">Jobs</button>
+                <button onclick="window.location.href='../current-students/enrollment.html';">Enrollment</button>
+                <button onclick="window.location.href='../current-students/faq.html';">FAQ</button>
+                <button onclick="window.location.href='../current-students/quick_links.html';">Quick Links</button>
+                <button onclick="window.location.href='../current-students/graduation.html';">Graduation</button>
             </aside> 
         </div>
         <script>

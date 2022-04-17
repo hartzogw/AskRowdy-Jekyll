@@ -109,7 +109,9 @@ header h1{
     text-align: center;
 }
 
-
+#noDisplay{
+    display: none;
+}
 /* CS and CY Buttons */
 #cs-cy-button{
     display: flex;
@@ -131,10 +133,10 @@ header h1{
     white-space: nowrap;
 }
 
+
 #cs-cy-button button:hover{
     background-color: black;
 }
-
 #csBtn{
     margin-right: .25em;
 }
@@ -186,7 +188,9 @@ aside button {
 aside button:hover{
     background-color: black;
 }
-
+aside-active {
+    background-color: black;
+}
 .accordion {
     background-color: #A2AAAD;
     color: black;

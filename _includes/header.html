@@ -6,21 +6,22 @@
     </div>
     <div class=row>
         <div class="topnav" class=col-12>
-          <a href="#home" class="active-mobile">New Students</a>
+          <a href="#home" class="active-mobile">Hi</a>
           <!-- Navigation links (hidden by default) -->
           <div id="myLinks">
-            <a href="#news">Computer Science</a>
-            <a href="#contact">CyberSecurity</a>
+            <a href="#news">New Students</a>
+            <a href="#contact">Current Students</a>
           </div>
           <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
+            <p id=noDisplay>Alternate Text</p><i class="fa fa-bars"></i>
           </a>
         </div>
+        
         <nav id="nav_menu" class=col-12>
             <ul>
-                <li><a href="index.html" class= "current">Prospective Students</a>
-                <li><a href="new-students.html">New Students</a>
+                <li><a href="index.html"{% if page.studentType == 'Prospective Student' %} class= "current"{% endif %}>Prospective Students</a>
+                <li><a href="../new-students/page.html">New Students</a>
                 <li><a href="current-students.html">Current Students</a>
             </ul>
         </nav>
