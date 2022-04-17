@@ -1,6 +1,6 @@
 ---
 title: Post 1
-category: hiii
+category: prospective-admission
 ---
 
 Here is my post.

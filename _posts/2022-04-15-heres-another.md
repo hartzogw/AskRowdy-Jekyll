@@ -1,5 +1,5 @@
 ---
 title: Hello
-categories: new-student-cs-program
+category: new-student-cs-program
 ---
 jsdnfksn

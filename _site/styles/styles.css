@@ -109,7 +109,7 @@ header h1{
     text-align: center;
 }
 
-#noDisplay{
+.noDisplay{
     display: none;
 }
 /* CS and CY Buttons */
@@ -150,8 +150,9 @@ header h1{
 
 
 footer{
-    position:-webkit-sticky;
-    position:sticky;
+   /* position:-webkit-sticky;
+    position:sticky;*/
+    position: fixed;
     width:100%;
     height:3.5em;
     bottom: 0;
@@ -318,6 +319,9 @@ aside-active {
     }
     #cs-cy-button button {
         width: 45%;
+    }
+    .noDisplay{
+        display: none;
     }
 }
 
