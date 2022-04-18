@@ -37,7 +37,8 @@ main {
 /* Style the hamburger menu */
 .topnav a.icon {
     color: white;
-    background: black;
+    /*background: black;*/
+    background: none;
     display: block;
     position: absolute;
     right: 0;
@@ -46,7 +47,12 @@ main {
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: black;
+  color: white;
+}
+
+.topnav a.current {
+    text-decoration: underline;
+    text-decoration-color: #C8102E;
 }
 
 /* Style the active link (or home/logo) */
@@ -271,9 +277,11 @@ aside-active {
 }
 
 #nav_menu ul li a.current {
-    color: black;
+    text-decoration-color: black;
 }
-
+#nav_menu ul li a:hover {
+    text-decoration-color: black;
+}
 #nav_menu > ul::after {
     content: "";
     clear: both;
@@ -284,6 +292,9 @@ aside-active {
     display: none;
 }
 
+li a.nav-current {
+    text-decoration: none;
+}
 
 @media only screen and (max-width: 900px) {
   /* For mobile devices: */
