@@ -65,9 +65,9 @@
           
             <section id=accordion-content class=col-7>
             {% for post in site.posts %}
-                {% if post.category == page.category and post.subcategory == page.subcategory %}
-                    {% include accordions1.html %}
-                {% endif %}
+                
+                {% include accordions.html %}
+                
             {% endfor %}
             </section>
             <aside class= col-3 id="desktop-aside">
