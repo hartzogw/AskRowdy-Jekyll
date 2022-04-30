@@ -9,10 +9,10 @@
         
             <url>
                 <loc>
-                    /prospective-students/admission.html
+                    /new-students/admission.html
                 </loc>
                 
-                    <lastmod>2022-04-22T13:50:10-05:00</lastmod>
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
                 
                 
                     <changefreq>monthly</changefreq>
@@ -26,10 +26,10 @@
         
             <url>
                 <loc>
-                    /new-students/admissions.html
+                    /prospective-students/admission.html
                 </loc>
                 
-                    <lastmod>2022-04-22T13:50:10-05:00</lastmod>
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
                 
                 
                     <changefreq>monthly</changefreq>
@@ -46,7 +46,7 @@
                     /prospective-students/apply_now.html
                 </loc>
                 
-                    <lastmod>2022-04-22T13:50:10-05:00</lastmod>
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
                 
                 
                     <changefreq>monthly</changefreq>
@@ -63,7 +63,7 @@
                     /current-students/course_info.html
                 </loc>
                 
-                    <lastmod>2022-04-22T13:50:10-05:00</lastmod>
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
                 
                 
                     <changefreq>monthly</changefreq>
@@ -77,10 +77,10 @@
         
             <url>
                 <loc>
-                    /current-students/enrollment.html
+                    /new-students/enrollment.html
                 </loc>
                 
-                    <lastmod>2022-04-22T13:50:10-05:00</lastmod>
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
                 
                 
                     <changefreq>monthly</changefreq>
@@ -97,7 +97,41 @@
                     /prospective-students/enrollment.html
                 </loc>
                 
-                    <lastmod>2022-04-22T13:50:10-05:00</lastmod>
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
+                
+                
+                    <changefreq>monthly</changefreq>
+                
+                
+                    <priority>0.3</priority>
+                
+            </url>
+        
+    
+        
+            <url>
+                <loc>
+                    /current-students/enrollment.html
+                </loc>
+                
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
+                
+                
+                    <changefreq>monthly</changefreq>
+                
+                
+                    <priority>0.3</priority>
+                
+            </url>
+        
+    
+        
+            <url>
+                <loc>
+                    /new-students/faq.html
+                </loc>
+                
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
                 
                 
                     <changefreq>monthly</changefreq>
@@ -114,7 +148,7 @@
                     /prospective-students/faq.html
                 </loc>
                 
-                    <lastmod>2022-04-22T13:50:10-05:00</lastmod>
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
                 
                 
                     <changefreq>monthly</changefreq>
@@ -131,7 +165,7 @@
                     /current-students/faq.html
                 </loc>
                 
-                    <lastmod>2022-04-22T13:50:10-05:00</lastmod>
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
                 
                 
                     <changefreq>monthly</changefreq>
@@ -148,7 +182,24 @@
                     /current-students/graduation.html
                 </loc>
                 
-                    <lastmod>2022-04-22T13:50:10-05:00</lastmod>
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
+                
+                
+                    <changefreq>monthly</changefreq>
+                
+                
+                    <priority>0.3</priority>
+                
+            </url>
+        
+    
+        
+            <url>
+                <loc>
+                    /new-students/graduation.html
+                </loc>
+                
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
                 
                 
                     <changefreq>monthly</changefreq>
@@ -165,7 +216,7 @@
                     /
                 </loc>
                 
-                    <lastmod>2022-04-22T13:50:10-05:00</lastmod>
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
                 
                 
                     <changefreq>monthly</changefreq>
@@ -182,7 +233,7 @@
                     /prospective-students/jobs.html
                 </loc>
                 
-                    <lastmod>2022-04-22T13:50:10-05:00</lastmod>
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
                 
                 
                     <changefreq>monthly</changefreq>
@@ -199,7 +250,41 @@
                     /current-students/jobs.html
                 </loc>
                 
-                    <lastmod>2022-04-22T13:50:10-05:00</lastmod>
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
+                
+                
+                    <changefreq>monthly</changefreq>
+                
+                
+                    <priority>0.3</priority>
+                
+            </url>
+        
+    
+        
+            <url>
+                <loc>
+                    /new-students/jobs.html
+                </loc>
+                
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
+                
+                
+                    <changefreq>monthly</changefreq>
+                
+                
+                    <priority>0.3</priority>
+                
+            </url>
+        
+    
+        
+            <url>
+                <loc>
+                    /new-students/programs.html
+                </loc>
+                
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
                 
                 
                     <changefreq>monthly</changefreq>
@@ -216,7 +301,24 @@
                     /prospective-students/programs.html
                 </loc>
                 
-                    <lastmod>2022-04-22T13:50:10-05:00</lastmod>
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
+                
+                
+                    <changefreq>monthly</changefreq>
+                
+                
+                    <priority>0.3</priority>
+                
+            </url>
+        
+    
+        
+            <url>
+                <loc>
+                    /new-students/quick_links.html
+                </loc>
+                
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
                 
                 
                     <changefreq>monthly</changefreq>
@@ -233,7 +335,7 @@
                     /current-students/quick_links.html
                 </loc>
                 
-                    <lastmod>2022-04-22T13:50:10-05:00</lastmod>
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
                 
                 
                     <changefreq>monthly</changefreq>
@@ -252,7 +354,7 @@
                     /prospective-students/tuition_and_scholarship.html
                 </loc>
                 
-                    <lastmod>2022-04-22T13:50:10-05:00</lastmod>
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
                 
                 
                     <changefreq>monthly</changefreq>
@@ -269,7 +371,7 @@
                     /current-students/tuition_and_scholarship.html
                 </loc>
                 
-                    <lastmod>2022-04-22T13:50:10-05:00</lastmod>
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
                 
                 
                     <changefreq>monthly</changefreq>
@@ -286,7 +388,7 @@
                     /new-students/tuition_and_scholarship.html
                 </loc>
                 
-                    <lastmod>2022-04-22T13:50:10-05:00</lastmod>
+                    <lastmod>2022-04-30T15:55:46-05:00</lastmod>
                 
                 
                     <changefreq>monthly</changefreq>
@@ -302,37 +404,7 @@
         
             
                 <url>
-                    <loc>/new-student-cs-program/2022/04/15/heres-another.html</loc>
-                    
-                        <lastmod>2022-04-15T00:00:00-05:00</lastmod>
-                    
-                    
-                        <changefreq>monthly</changefreq>
-                    
-                    
-                        <priority>0.5</priority>
-                    
-                </url>
-            
-        
-            
-                <url>
-                    <loc>/new-student-cs-program/2022/04/15/overview.html</loc>
-                    
-                        <lastmod>2022-04-15T00:00:00-05:00</lastmod>
-                    
-                    
-                        <changefreq>monthly</changefreq>
-                    
-                    
-                        <priority>0.5</priority>
-                    
-                </url>
-            
-        
-            
-                <url>
-                    <loc>/prospective-admission/2022/04/15/program-eligibility.html</loc>
+                    <loc>/new/2022/04/15/heres-another.html</loc>
                     
                         <lastmod>2022-04-15T00:00:00-05:00</lastmod>
                     

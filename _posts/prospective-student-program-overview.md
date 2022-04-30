@@ -1,6 +1,7 @@
 ---
 title: Program Overview
-Category: prospective-student-cs-program
+category: prospective-student-program
+subcategory: computer-science
 ---
 # What You'll Study 
 The computer science masters program helps enhance your technical and professional skills so you can develop a high degree of specializaiton 
