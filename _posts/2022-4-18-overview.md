@@ -1,5 +1,6 @@
 ---
 title: Overview
-category: new-student-cs-program
+category: hello
+studentType: new
 ---
 Here is an overiew
