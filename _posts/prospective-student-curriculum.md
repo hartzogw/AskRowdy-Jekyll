@@ -1,6 +1,6 @@
 ---
 title: Curriculum
-category: prospective-student-cs-program
+category: prospective-student-program
 ---
 Curriculum checklist for Applied Computer Science (30 hours)
 ## Core Requirements:
