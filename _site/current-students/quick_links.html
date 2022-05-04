@@ -9,44 +9,45 @@
 <body>
     <header>
 
-        <div class=row>
-            <a class=col-3 href=../index.html><img src="https://semo-cscy.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F659091e9-71af-45fb-9941-0a685f0c4e23%2FUntitled.png?table=block&id=a2f12d10-fd31-4b79-aa74-ea5f5fc3eedd&spaceId=4021a294-21ef-4cd2-90d8-f2296171446b&width=2000&userId=&cache=v2" alt="SEMO Logo"></a>
-            <h1 class= col-9>Ask Rowdy - Student Help Center</h1>
+    <div class=row>
+        <a class=col-3 href=../index.html><img src="https://semo-cscy.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F659091e9-71af-45fb-9941-0a685f0c4e23%2FUntitled.png?table=block&id=a2f12d10-fd31-4b79-aa74-ea5f5fc3eedd&spaceId=4021a294-21ef-4cd2-90d8-f2296171446b&width=2000&userId=&cache=v2" alt="SEMO Logo"></a>
+        <h1 class= col-9>Ask Rowdy - Student Help Center</h1>
+    </div>
+    <div class=row>
+        <div class="topnav" class=col-12>
+          <a class="current" href="../current-students/course_info.html">Current Students</a>
+          <!-- Navigation links (hidden by default) -->
+          <div id="myLinks">
+            <a href="../new-students/admission.html">New Students</a>
+            <a href="../current-students/course_info.html">Current Students</a>
+          </div>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
-        <div class=row>
-            <div class="topnav" class=col-12>
-              <a class="current" href="../current-students/course_info.html">Current Students</a>
-              <!-- Navigation links (hidden by default) -->
-              <div id="myLinks">
-                <a href="../new-students/admission.html">New Students</a>
-                <a href="../current-students/course_info.html">Current Students</a>
-              </div>
-              <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-              </a>
-            </div>
-            
-            <nav id="nav_menu" class=col-12>
-                <ul>
-                    <li><a href="../prospective-students/admission.html">Prospective Students</a>
-                    <li><a href="../new-students/admission.html">New Students</a>
-                    <li><a class="current" href="../current-students/course_info.html">Current Students</a>
-                </ul>
-            </nav>
-        </div>
-          
-        <script>
-            function myFunction() {
-                var x = document.getElementById("myLinks");
-                if (x.style.display === "block") {
-                    x.style.display = "none";
-                } else {
-                    x.style.display = "block";
-                }
+        
+        <nav id="nav_menu" class=col-12>
+            <ul>
+                <li><a href="../prospective-students/admission.html">Prospective Students</a>
+                <li><a href="../new-students/admission.html">New Students</a>
+                <li><a class="current" href="../current-students/course_info.html">Current Students</a>
+            </ul>
+        </nav>
+    </div>
+      
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
             }
-        </script>
-    </header>
+        }
+    </script>
+</header>
+
     <main>
         <div class=row>
             <img id=img-content class=col-2 src=../assets/circuit-board.jpg alt="Circuit Board Computer Electronics">
@@ -62,6 +63,10 @@
                 <button onclick="window.location.href='../current-students/graduation.html';">Graduation</button>
             </aside>
             <section id=accordion-content class=col-7>
+            
+                
+            
+                
             
                 
             
