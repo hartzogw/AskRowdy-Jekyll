@@ -26,7 +26,7 @@
             </aside>
             <section id=accordion-content class=col-7>
             {% for post in site.posts %}
-            {% if post.category == page.category %}
+            {% if post.categories contains page.categories[1] %}      
                 {% include accordions.html %}
             {% endif %}
             {% endfor %}
