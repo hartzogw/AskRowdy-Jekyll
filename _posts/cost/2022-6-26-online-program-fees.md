@@ -1,5 +1,5 @@
 ---
-title: Program Fees
+title: Online Program Fees
 categories:
     - cost
     - tuition-and-scholarship
@@ -7,9 +7,7 @@ categories:
     - new
     - prospective
 ---
-Graduate Missouri Resident: $386.50 (per credit hour)
-
-Graduate Nonresident: $663.25.00 (per credit hour)
+ Online ONLY (SE Online Degrees)- Graduate : $386.50 (per credit hour)
 
 More Info: [Click here](https://semo.edu/student-support/financial-services/cost/index.html)
 

@@ -9,6 +9,7 @@
 <body>
     {% include header-current.html %}
     <main>
+        {% include cs-cy-buttons.html %}
         <div class=row>
             {% include image.html %}
             <!--Due to the way the HTML is written the mobile-aside.html needs to stay above accordions.html in this HTML file. 
@@ -22,12 +23,12 @@
                 <button onclick="window.location.href='../current-students/quick_links.html';">Quick Links</button>
                 <button onclick="window.location.href='../current-students/graduation.html';">Graduation</button>
             </aside>
-            <section id=accordion-content class=col-7>
-            {% for post in site.posts %}
-                {% if post.category == page.category %}
-                {% include accordions.html %}
+            <section id=accordion-content class=col-7>   
+                {% for post in site.posts %}
+                {% if post.categories contains page.categories[1] %}
+                    {% include accordions.html %}
                 {% endif %}
-            {% endfor %}
+                {% endfor %}         
             </section>
             <aside class= col-3 id="desktop-aside">
                 <button onclick="window.location.href='../current-students/course_info.html';">Course Info</button>
