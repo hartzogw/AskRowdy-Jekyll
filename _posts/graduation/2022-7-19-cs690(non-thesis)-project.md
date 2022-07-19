@@ -1,0 +1,25 @@
+---
+title: "CS690(Non Thesis)"
+categories:
+    - graduation
+    - prospective
+    - new
+---
+
+# CS 690 - Graduate Project for non-thesis students
+
+Graduate Project is *0 credit mandatory* course for **non-thesis students** who are doing purely coursework.
+
+**The learning outcomes for grad project are:**
+
+1. Students will be able to build a **portfolio consisting of major contributions** through their period of study as Master student in Southeast Missouri State University.
+2. Students will finalize revisions of projects, papers, etc. they have been accumulating throughout their graduate study.
+3. Students will have to **communicate their technical contributions** in the areas of computer science during the *exit interview*.
+
+You will be revisiting and documenting your past projects. There will be 3-4 submissions through the semester. No original project required.
+
+<aside>
+💡 This is typically offered only during **Spring/Fall**. You cannot enroll in this course during Summer.
+
+</aside>
+[Graduation FAQ](https://semo-cscy.notion.site/Graduation-FAQ-66caf46a631d4599878adfc5838a7bce)
