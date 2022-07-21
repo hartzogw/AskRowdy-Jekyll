@@ -1,3 +1,4 @@
+baseurl: /AskRowdy-Jekyll
 plugin: jekyll-sitemap
 exclude: 
 - README.md
