@@ -4,43 +4,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Help Center: CS Grad Student</title>
 </head>
 <body>
+  <style>
+    .nav-tabs{
+      padding-left: 180px;
+    }
+    .nav-tabs>li>a{
+      border-radius: 10px;
+      background-color: #C8102E;
+      color: white;
+      width: 250px;
+      text-align: center;
+    }
+    .nav-tabs>li>a:hover{
+      background-color: #C8102E;
+      color: white;
+    }
+    .nav-tabs>li.active>a{
+      background-color: black !important;
+      color: white !important;
+    }
+  </style>
     {% include header-new.html %}
     <main>
-        {% include cs-cy-buttons.html %}
         <div class=row>
+          <div class="col-md-2">
             {% include image.html %}
+          </div>
+          <div class="col-md-10">
+           
             <!--Due to the way the HTML is written the mobile-aside.html needs to stay above accordions.html in this HTML file. 
                 This is how I was able to get this menu above the accordions instead of besided them in a mobile viewport. WH-->
-            <aside class= col-3 id="mobile-aside">
-                <button onclick="window.location.href='../new-students/programs.html';">Programs</button>
-                <button onclick="window.location.href='../new-students/admissions.html';">Admission</button>
-                <button onclick="window.location.href='../new-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>
-                <button onclick="window.location.href='../new-students/jobs.html';">Jobs</button>
-                <button onclick="window.location.href='../new-students/enrollment.html';">Enrollment</button>
-                <button onclick="window.location.href='../new-students/faq.html';">FAQ</button>
-                <button onclick="window.location.href='../new-students/quick_links.html';">Quick Links</button>
-                <button onclick="window.location.href='../new-students/graduation.html';">Graduation</button>
-            </aside>
-            <section id=accordion-content class=col-7>
-            {% for post in site.posts %}
-            {% if post.categories contains page.categories[1] %}      
-                {% include accordions.html %}
-            {% endif %}
-            {% endfor %}
-            </section>
-            <aside class= col-3 id="desktop-aside">
-                <button onclick="window.location.href='../new-students/programs.html';">Programs</button>
-                <button onclick="window.location.href='../new-students/admission.html';">Admission</button>
-                <button onclick="window.location.href='../new-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>
-                <button onclick="window.location.href='../new-students/jobs.html';">Jobs</button>
-                <button onclick="window.location.href='../new-students/enrollment.html';">Enrollment</button>
-                <button onclick="window.location.href='../new-students/faq.html';">FAQ</button>
-                <button onclick="window.location.href='../new-students/quick_links.html';">Quick Links</button>
-                <button onclick="window.location.href='../new-students/graduation.html';">Graduation</button>
-            </aside> 
+           
+            <ul class="nav nav-tabs">
+                <li><a data-toggle="tab" class="cs-cy-buttons" href="#home">Computer Science</a></li>
+                <li><a data-toggle="tab" class="cs-cy-buttons" href="#menu1">Cybersecurity</a></li>
+              </ul>
+            
+              <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+                  <aside class= col-3 id="mobile-aside">
+                    <button onclick="window.location.href='../new-students/programs.html';">Programs</button>
+                    <button onclick="window.location.href='../new-students/admission.html';">Admission</button>
+                    <button onclick="window.location.href='../new-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>
+                    <button onclick="window.location.href='../new-students/jobs.html';">Jobs</button>
+                    <button onclick="window.location.href='../new-students/enrollment.html';">Enrollment</button>
+                    <button onclick="window.location.href='../new-students/faq.html';">FAQ</button>
+                    <button onclick="window.location.href='../new-students/apply_now.html';">Apply Now</button>
+                    <button onclick="window.location.href='../new-students/apply_now.html';">Transfer</button> 
+                </aside>  
+                  <section id=accordion-content class=col-8>
+                    {% for post in site.posts %}
+
+                    {% if post.categories contains page.categories[1] %}      
+        
+                        {% include accordions.html %}
+        
+                    {% endif %}
+        
+                    {% endfor %}
+                    </section>
+                    <aside class= col-4 id="desktop-aside">
+                        <button onclick="window.location.href='../new-students/programs.html';">Programs</button>
+                        <button onclick="window.location.href='../new-students/admission.html';">Admission</button>
+                        <button onclick="window.location.href='../new-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>
+                        <button onclick="window.location.href='../new-students/jobs.html';">Jobs</button>
+                        <button onclick="window.location.href='../new-students/enrollment.html';">Enrollment</button>
+                        <button onclick="window.location.href='../new-students/faq.html';">FAQ</button>
+                        <button onclick="window.location.href='../new-students/quick_links.html';">Quick Links</button>
+                        <button onclick="window.location.href='../new-students/graduation.html';">Graduation</button> 
+                    </aside> 
+                </div>
+                <div id="menu1" class="tab-pane fade">
+                  <aside class= col-3 id="mobile-aside">
+                    <button onclick="window.location.href='../new-students/programs.html';">Programs</button>
+                    <button onclick="window.location.href='../new-students/admission.html';">Admission</button>
+                    <button onclick="window.location.href='../new-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>
+                    <button onclick="window.location.href='../new-students/jobs.html';">Jobs</button>
+                    <button onclick="window.location.href='../new-students/enrollment.html';">Enrollment</button>
+                    <button onclick="window.location.href='../new-students/faq.html';">FAQ</button>
+                    <button onclick="window.location.href='../new-students/quick_links.html';">Quick Links</button>
+                    <button onclick="window.location.href='../new-students/graduation.html';">Graduation</button>
+                </aside>  
+                  <section id=accordion-content class=col-8>
+                    {{page}}
+                    {% for post in site.posts %}
+
+                    {% if post.categories contains page.categories[1] %}      
+        
+                        {% include accordions.html %}
+        
+                    {% endif %}
+        
+                    {% endfor %}
+                    </section>
+                    <aside class= col-4 id="desktop-aside">
+                        <button onclick="window.location.href='../new-students/programs.html';">Programs</button>
+                        <button onclick="window.location.href='../new-students/admission.html';">Admission</button>
+                        <button onclick="window.location.href='../new-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>
+                        <button onclick="window.location.href='../new-students/jobs.html';">Jobs</button>
+                        <button onclick="window.location.href='../new-students/enrollment.html';">Enrollment</button>
+                        <button onclick="window.location.href='../new-students/faq.html';">FAQ</button>
+                        <button onclick="window.location.href='../new-students/quick_links.html';">Quick Links</button>
+                        <button onclick="window.location.href='../new-students/graduation.html';">Graduation</button>  
+                    </aside>
+                </div>
+              </div>
+            </div>
         </div>
         <script>
             var acc = document.getElementsByClassName("accordion");
