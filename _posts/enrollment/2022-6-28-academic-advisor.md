@@ -5,6 +5,7 @@ categories:
     - enrollment
     - prospective
     - new
+    - current
 ---
 
 <h3>Academic Advising</h3>

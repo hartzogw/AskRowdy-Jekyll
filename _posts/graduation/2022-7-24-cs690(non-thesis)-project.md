@@ -1,12 +1,14 @@
 ---
 title: "CS690(Non Thesis)"
+subtitle: "Subsection"
 categories:
     - graduation
-    - prospective
-    - new
+    
+   
+    
 ---
 
-# CS 690 - Graduate Project for non-thesis students
+<h3> CS 690 - Graduate Project for non-thesis students</h3>
 
 Graduate Project is *0 credit mandatory* course for **non-thesis students** who are doing purely coursework.
 

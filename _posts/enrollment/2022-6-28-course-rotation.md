@@ -2,8 +2,10 @@
 title: Course Rotation
 subtitle: "Subsection"
 categories:
+    - enrollment
     - prospective
     - new
+    - current
 ---
 <h3>Course Rotation (core courses)</h3>
 <strong>Core Requirements:</strong>

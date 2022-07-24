@@ -1,12 +1,13 @@
 ---
 title: "CS697/CS698(Thesis Research)"
+subtitle: "Subsection"
 categories:
     - graduation
-    - prospective
-    - new
+   
+   
     
 ---
-# Thesis
+<h3> Thesis</h3>
 
 Student will find a faculty member that will serve as his/her **thesis advisor**. They ****will work closely with his/her thesis advisor, as well as the committee.
 
