@@ -2,7 +2,6 @@
 title: Course Rotation
 subtitle: "Subsection"
 categories:
-    - enrollment
     - prospective
     - new
 ---
@@ -14,4 +13,8 @@ categories:
 <li>CY520 Information Security in System Administration (3)</li>
 <li>CY530 Network Security and Defense (3)</li>
 <li>MA664 Computational Cryptography (3)</li>
+
+Note: These schedules are subject to change based on student needs and faculty availability. 
+
+Pls, verify on *[portal.semo.edu*](http://portal.semo.edu) for the latest course schedule.
             

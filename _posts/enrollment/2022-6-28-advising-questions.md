@@ -2,9 +2,9 @@
 title: Advising Questions
 subtitle: "Subsection"
 categories:
-  - enrollment
-  - prospective
-  - new
+ - prospective  
+ - new
+
 ---
 Q: Are the classes going to be in-person or by online?
 
