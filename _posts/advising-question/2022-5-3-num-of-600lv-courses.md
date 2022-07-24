@@ -1,5 +1,6 @@
 ---
 title: "How many 600-level courses do I have to register for the MS program?"
+subtitle: "FAQ"
 categories:
     - advising-question
     - enrollment

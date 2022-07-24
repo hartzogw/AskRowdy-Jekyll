@@ -1,5 +1,6 @@
 ---
 title: "How do I take exams for the online degree?"
+subtitle: "FAQ"
 categories:
     - cost
     - admission

@@ -2,5 +2,3 @@ baseurl: /AskRowdy-Jekyll
 plugin: jekyll-sitemap
 exclude: 
 - README.md
-
-theme: jekyll-theme-merlot

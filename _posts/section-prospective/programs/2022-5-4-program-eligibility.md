@@ -1,5 +1,6 @@
 ---
 title: Program Eligibility
+subtitle: "Subsection"
 category: prospective-student-program
 subcategory: computer-science
 ---

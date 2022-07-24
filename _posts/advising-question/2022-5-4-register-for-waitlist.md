@@ -1,5 +1,6 @@
 ---
 title: "How do I register on the waitlist for courses that are closed?"
+subtitle: "FAQ"
 categories:
     - advising-question
     - enrollment

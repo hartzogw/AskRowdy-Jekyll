@@ -1,5 +1,6 @@
 ---
 title: Scholorships
+subtitle: "Subsection"
 category: prospective-student-cs-program 
 ---
 # Southeast awards more than $20 million in scholorships each year

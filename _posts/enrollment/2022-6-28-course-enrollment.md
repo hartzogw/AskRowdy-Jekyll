@@ -1,5 +1,6 @@
 ---
 title: Course Enrollment
+subtitle: "Subsection"
 categories:
   - enrollment
   - prospective

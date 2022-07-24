@@ -1,5 +1,6 @@
 ---
 title: "How do you apply for early admission?"
+subtitle: "FAQ"
 categories:
     - admission
     - applynow

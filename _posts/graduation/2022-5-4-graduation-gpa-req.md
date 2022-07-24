@@ -1,5 +1,6 @@
 ---
 title: "What is the GPA requirement for graduation?"
+subtitle: "FAQ"
 categories:
     - graduation
     - enrollment

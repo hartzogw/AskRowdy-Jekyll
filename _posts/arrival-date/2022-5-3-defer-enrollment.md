@@ -1,5 +1,6 @@
 ---
 title: "How do I DEFER my enrollment?"
+subtitle: "FAQ"
 categories:
     - arrival-date
     - new

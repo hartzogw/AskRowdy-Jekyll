@@ -1,5 +1,6 @@
 ---
 title: Tuition Payments & Refunds
+subtitle: "Subsection"
 categories:
     - cost
     - tuition-and-scholarship

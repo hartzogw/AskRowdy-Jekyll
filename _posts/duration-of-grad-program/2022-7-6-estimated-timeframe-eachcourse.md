@@ -1,5 +1,6 @@
 ---
 title: "What is the estimated timeframe (months) to complete each course?"
+subtitle: "FAQ"
 categories:
     - programs
     - enrollment

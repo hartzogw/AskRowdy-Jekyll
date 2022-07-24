@@ -1,5 +1,6 @@
 ---
 title: "How do I drop a course?"
+subtitle: "FAQ"
 categories:
     - advising-question
     - enrollment

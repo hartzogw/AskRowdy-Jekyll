@@ -1,5 +1,6 @@
 ---
 title: "Which courses will be transferred?"
+subtitle: "Subsection"
 categories:
     - transfer-students
     - enrollment

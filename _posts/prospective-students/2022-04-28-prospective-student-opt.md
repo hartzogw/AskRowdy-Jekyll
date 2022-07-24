@@ -1,5 +1,6 @@
 ---
 title: Optional Practical Training
+subtitle: "Subsection"
 category: prospective-student-cs-program
 ---
 Optional Practical Training (OPT) provides F-1 students with an opportunity for hands-on work experience (work authorization) related to the academic field of study. 

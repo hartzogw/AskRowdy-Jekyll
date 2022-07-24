@@ -1,5 +1,6 @@
 ---
 title: Curriculum
+subtitle: "Subsection"
 categories:
     - transfer-students
     - prospective

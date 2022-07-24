@@ -1,5 +1,6 @@
 ---
 title: Kent Library
+subtitle: "Subsection"
 categories: 
     - quick-links
     - prospective

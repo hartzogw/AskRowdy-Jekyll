@@ -1,5 +1,6 @@
 ---
 title: "What is the average completion time for this online program?"
+subtitle: "FAQ"
 categories:
     - admission
     - prospective

@@ -57,17 +57,42 @@
                     <button onclick="window.location.href='{{site.baseurl}}/current-students/quick_links.html';">Quick Links</button>
                     <button onclick="window.location.href='{{site.baseurl}}/current-students/graduation.html';">Graduation</button>
                 </aside>  
-                  <section id=accordion-content class=col-8>
-                    {% for post in site.posts %}
+                <section id=accordion-content class=col-8>
+                  {% for post in site.posts %}
 
-                    {% if post.categories contains page.categories[1] %}      
-        
-                        {% include accordions.html %}
-        
-                    {% endif %}
-        
-                    {% endfor %}
-                    </section>
+                     {% if post.categories contains page.categories[1] %}      
+
+                         {% if post.subtitle == "Subsection" %}
+
+                             {% include accordions.html %}
+
+                         {% endif %}
+                         
+                     {% endif %}
+       
+                   {% endfor %}
+
+                   <div>
+                     <button class="accordion">FAQ</button>
+                     <div class="panel">
+                        {% for post in site.posts %}
+
+                          {% if post.categories contains page.categories[1] %}      
+
+                              {% if post.subtitle == "FAQ" %}
+                              
+                              {% include accordions.html %}
+
+
+                              {% endif %}
+
+                          {% endif %}
+            
+                        {% endfor %}
+                      </div>
+             
+                     </div>
+                   </section>
                     <aside class= col-4 id="desktop-aside">
                         <button onclick="window.location.href='{{site.baseurl}}/current-students/programs.html';">Programs</button>
                         <button onclick="window.location.href='{{site.baseurl}}/current-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>
@@ -88,17 +113,42 @@
                     <button onclick="window.location.href='{{site.baseurl}}/current-students/quick_links.html';">Quick Links</button>
                     <button onclick="window.location.href='{{site.baseurl}}/current-students/graduation.html';">Graduation</button> 
                 </aside>  
-                  <section id=accordion-content class=col-8>
-                    {% for post in site.posts %}
+                <section id=accordion-content class=col-8>
+                  {% for post in site.posts %}
 
-                    {% if post.categories contains page.categories[1] %}      
-        
-                        {% include accordions.html %}
-        
-                    {% endif %}
-        
-                    {% endfor %}
-                    </section>
+                     {% if post.categories contains page.categories[1] %}      
+
+                         {% if post.subtitle == "Subsection" %}
+
+                             {% include accordions.html %}
+
+                         {% endif %}
+                         
+                     {% endif %}
+       
+                   {% endfor %}
+
+                   <div>
+                     <button class="accordion">FAQ</button>
+                     <div class="panel">
+                        {% for post in site.posts %}
+
+                          {% if post.categories contains page.categories[1] %}      
+
+                              {% if post.subtitle == "FAQ" %}
+                              
+                              {% include accordions.html %}
+
+
+                              {% endif %}
+
+                          {% endif %}
+            
+                        {% endfor %}
+                      </div>
+             
+                     </div>
+                   </section>
                     <aside class= col-4 id="desktop-aside">
                         <button onclick="window.location.href='{{site.baseurl}}/new-students/programs.html';">Programs</button>
                         <button onclick="window.location.href='{{site.baseurl}}/current-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>

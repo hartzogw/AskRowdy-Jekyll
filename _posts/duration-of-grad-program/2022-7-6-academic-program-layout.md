@@ -1,5 +1,6 @@
 ---
 title: "What is the academic program layout?"
+subtitle: "FAQ"
 categories:
     - prospective
 ---

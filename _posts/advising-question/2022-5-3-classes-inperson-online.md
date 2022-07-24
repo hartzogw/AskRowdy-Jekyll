@@ -1,5 +1,6 @@
 ---
 title: "Are the classes going to be in-person or by online?"
+subtitle: "FAQ"
 categories:
     - advising-question
     - enrollment

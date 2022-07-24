@@ -1,5 +1,6 @@
 ---
 title: GA Positions
+subtitle: "Subsection"
 category: prospective-student-cs-program
 ---
 ## Fund your educaiton while gaining valuable professional experience 

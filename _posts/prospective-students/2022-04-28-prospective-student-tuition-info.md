@@ -1,5 +1,6 @@
 ---
 title: Tuition Information
+subtitle: "Subsection"
 category: prospective-student-cs-program
 ---
 # Current Year Fee Schedules 

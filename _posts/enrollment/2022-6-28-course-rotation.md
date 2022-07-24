@@ -1,5 +1,6 @@
 ---
 title: Course Rotation
+subtitle: "Subsection"
 categories:
     - enrollment
     - prospective

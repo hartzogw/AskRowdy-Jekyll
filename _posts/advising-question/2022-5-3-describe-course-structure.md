@@ -1,5 +1,6 @@
 ---
 title: "Can you describe about the structure of each course before registering? (e.g., Assignments, Projects & Presentations)."
+subtitle: "FAQ"
 categories:
     - advising-question
     - enrollment

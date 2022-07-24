@@ -1,5 +1,6 @@
 ---
 title: Tuition Info
+subtitle: "Subsection"
 categories:
     - cost
     - tuition-and-scholarship
