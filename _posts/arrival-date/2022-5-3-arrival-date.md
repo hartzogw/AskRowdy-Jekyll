@@ -1,7 +1,8 @@
 ---
-title: "What is the LAST date of arrival for the on-campus students :: Edited ?"
+title: "What is the LAST date of arrival for the on-campus students ?"
 subtitle: "FAQ"
 categories:
+    - FAQ
     - arrival-date
     - prospective
     - new

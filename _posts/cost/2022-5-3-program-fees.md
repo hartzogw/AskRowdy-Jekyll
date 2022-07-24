@@ -1,6 +1,6 @@
 ---
 title: Program Fees
-subtitle: "Subsection"
+subtitle: "FAQ"
 categories:
     - cost
     - tuition-and-scholarship

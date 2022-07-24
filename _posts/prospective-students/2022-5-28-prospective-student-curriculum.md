@@ -2,7 +2,6 @@
 title: " Curriculum "
 subtitle: "Subsection"
 categories: 
-    - admission
     - prospective
     - new
     - programs

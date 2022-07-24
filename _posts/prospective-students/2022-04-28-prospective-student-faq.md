@@ -1,11 +1,11 @@
 ---
-title: FAQ
-subtitle: "Subsection"
-category: 
-    - prospective-student-cs-program
-    - programs
+title: Are the classes going to be in-person or by online?
+subtitle: "FAQ"
+categories:
+    - prospective-student
+    - enrollment
 ---
-# Program FAQ
+# Class Codes
 The face-to-face class has Sec "01". The online courses have Sec "740".
 Hybrid courses will be "FX1"  <br>
  

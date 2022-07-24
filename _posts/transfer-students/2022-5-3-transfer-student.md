@@ -1,6 +1,6 @@
 ---
 title: "Whether courses can be transferred?"
-subtitle: "Subsection"
+subtitle: "FAQ"
 categories:
     - transfer-students
     - prospective
