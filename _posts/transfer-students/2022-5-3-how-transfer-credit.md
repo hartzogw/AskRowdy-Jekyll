@@ -1,5 +1,6 @@
 ---
 title: "How to transfer credit?"
+subtitle: "FAQ"
 categories:
     - transfer-students
     - admission

@@ -1,7 +1,9 @@
 ---
 title: "How can I transfer the courses?"
+subtitle: "FAQ"
 categories:
     - transfer-students
+    - FAQ
     - enrollment
     - prospective
     - new

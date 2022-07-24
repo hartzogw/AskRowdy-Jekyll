@@ -1,5 +1,6 @@
 ---
 title: "Can you describe about the structure of each course before registering? (e.g., Assignments, Projects & Presentations)."
+subtitle: "FAQ"
 categories:
     - advising-question
     - enrollment
@@ -7,4 +8,6 @@ categories:
     - new
     - current
 ---
-Each Professor designs the course independently. Pls ask for “Syllabus” document from your course professor. I do not maintain a syllabus of each course.
+Each Professor designs the course independently. <br>
+Please ask for “Syllabus” document from your course professor. <br>
+we do not maintain a syllabus of each course.

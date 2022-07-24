@@ -1,9 +1,12 @@
 ---
 title: "Which courses will be transferred?"
+subtitle: "FAQ"
 categories:
     - transfer-students
+    - FAQ
     - enrollment
     - prospective
+    - enrollment
     - new
 ---
 Please email me the following info:

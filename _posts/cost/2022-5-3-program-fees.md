@@ -1,5 +1,6 @@
 ---
 title: Program Fees
+subtitle: "FAQ"
 categories:
     - cost
     - tuition-and-scholarship
@@ -7,9 +8,9 @@ categories:
     - new
     - prospective
 ---
-Graduate Missouri Resident: $367.25 (per credit hour)
+Graduate Missouri Resident: $386.50 (per credit hour)
 
-Graduate Nonresident: $644.00 (per credit hour)
+Graduate Nonresident: $663.25.00 (per credit hour)
 
 More Info: [Click here](https://semo.edu/student-support/financial-services/cost/index.html)
 
