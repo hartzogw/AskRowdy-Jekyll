@@ -12,10 +12,10 @@
 <body>
   <style>
     .nav-tabs{
-      padding-left: 180px;
+      padding-left: 70px;
     }
     .nav-tabs>li>a{
-      border-radius: 7px;
+      border-radius: .5em;
       background-color: #C8102E;
       color: white;
       width: 250px;
@@ -65,7 +65,12 @@
 
                          {% if post.subtitle == "Subsection" %}
 
-                             {% include accordions.html %}
+                            {% unless post.program == "cyber" %}
+                                
+                              {% include accordions.html %}
+                  
+                            {% endunless %}
+                           
 
                          {% endif %}
                          
@@ -121,7 +126,12 @@
 
                          {% if post.subtitle == "Subsection" %}
 
-                             {% include accordions.html %}
+                              {% unless post.program == "CS" %}
+                                  
+                                {% include accordions.html %}
+                    
+                              {% endunless %}
+                           
 
                          {% endif %}
                          

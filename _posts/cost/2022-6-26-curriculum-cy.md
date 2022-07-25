@@ -1,11 +1,11 @@
 ---
 title: Cyber Security Curriculum
 subtitle: "Subsection"
+program: "cyber"
 categories:
     - transfer-students
     - prospective
     - new
-    - cyber
     - programs
     
 ---

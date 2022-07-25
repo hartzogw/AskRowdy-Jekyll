@@ -24,4 +24,3 @@ You will be revisiting and documenting your past projects. There will be 3-4 sub
 💡 This is typically offered only during **Spring/Fall**. You cannot enroll in this course during Summer.
 
 </aside>
-[Graduation FAQ](https://semo-cscy.notion.site/Graduation-FAQ-66caf46a631d4599878adfc5838a7bce)
