@@ -3,7 +3,6 @@ title: "How do I communicate with my academic advisor?"
 subtitle: "FAQ"
 categories:
     - advising-question
-    - enrollment
     - new
     - current
 ---

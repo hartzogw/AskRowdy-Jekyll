@@ -3,7 +3,6 @@ title: "Are there any additional requirements for the international student for 
 subtitle: "FAQ"
 categories:
     - graduation
-    - enrollment
     - prospective
     - new
 ---

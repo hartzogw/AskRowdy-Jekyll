@@ -4,7 +4,6 @@ subtitle: "FAQ"
 categories:
     - advising-question
     - programs
-    - enrollment
     - new
     - current
 ---

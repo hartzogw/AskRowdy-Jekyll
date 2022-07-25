@@ -4,8 +4,8 @@ subtitle: "FAQ"
 categories:
     - transfer-students
     - FAQ
-    - enrollment
     - prospective
+    - enrollment
     - new
 ---
 For successful transfer of credit, pls email me (rmitra@semo.edu) your official transcript. 

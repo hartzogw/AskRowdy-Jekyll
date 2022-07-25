@@ -1,10 +1,9 @@
 ---
 title: "Graduation FAQ"
-subtitle: "Subsection"
+subtitle: "FAQ"
 categories:
-    - graduation
-    - prospective
     - new
+    - graduation
 ---
 
 GRADUATION FAQ

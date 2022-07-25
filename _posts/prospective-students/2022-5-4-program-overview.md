@@ -5,7 +5,6 @@ categories:
         - prospective-student-program
         - advising-question
         - prospective
-        - new
         - current
         - programs
 subcategory: computer-science

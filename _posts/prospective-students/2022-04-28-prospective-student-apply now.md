@@ -2,8 +2,8 @@
 title: Apply Now
 subtitle: "Subsection"
 category: 
-    - prospective-student-cs-program
-    - programs
+   - prospective-student-cs-program
+   - programs
 ---
 
 <div _ngcontent-hgi-c95="" class="accordion-item">

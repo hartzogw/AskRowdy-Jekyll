@@ -3,7 +3,6 @@ title: "How do I read the course schedule?"
 subtitle: "FAQ"
 categories:
     - advising-question
-    - enrollment
     - new
     - current
 ---

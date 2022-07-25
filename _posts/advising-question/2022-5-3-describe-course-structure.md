@@ -3,8 +3,8 @@ title: "Can you describe about the structure of each course before registering? 
 subtitle: "FAQ"
 categories:
     - advising-question
-    - enrollment
     - prospective
+    - enrollment
     - new
     - current
 ---

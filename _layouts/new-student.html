@@ -51,21 +51,22 @@
                 <div id="home" class="tab-pane fade in active">
                   <aside class= col-3 id="mobile-aside">
                     <button onclick="window.location.href='{{site.baseurl}}/new-students/programs.html';">Programs</button>
-                    <button onclick="window.location.href='{{site.baseurl}}/new-students/admission.html';">Admission</button>
+                    <!-- <button onclick="window.location.href='{{site.baseurl}}/new-students/admission.html';">Admission</button> -->
                     <button onclick="window.location.href='{{site.baseurl}}/new-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>
                     <button onclick="window.location.href='{{site.baseurl}}/new-students/jobs.html';">Jobs</button>
                     <button onclick="window.location.href='{{site.baseurl}}/new-students/enrollment.html';">Enrollment</button>
                     <button onclick="window.location.href='{{site.baseurl}}/new-students/faq.html';">FAQ</button>
-                    <button onclick="window.location.href='{{site.baseurl}}/new-students/apply_now.html';">Apply Now</button>
+                    <!-- <button onclick="window.location.href='{{site.baseurl}}/new-students/apply_now.html';">Apply Now</button> -->
                     <button onclick="window.location.href='{{site.baseurl}}/new-students/graduation.html';">Graduation</button> 
                 </aside>  
                 <section id=accordion-content class=col-8>
+                 
                   {% for post in site.posts %}
-
+                
                      {% if post.categories contains page.categories[1] %}      
-
+                    
                          {% if post.subtitle == "Subsection" %}
-
+                         
                              {% include accordions.html %}
 
                          {% endif %}
@@ -97,7 +98,7 @@
                    </section>
                     <aside class= col-4 id="desktop-aside">
                         <button onclick="window.location.href='{{site.baseurl}}/new-students/programs.html';">Programs</button>
-                        <button onclick="window.location.href='{{site.baseurl}}/new-students/admission.html';">Admission</button>
+                        <!-- <button onclick="window.location.href='{{site.baseurl}}/new-students/admission.html';">Admission</button> -->
                         <button onclick="window.location.href='{{site.baseurl}}/new-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>
                         <button onclick="window.location.href='{{site.baseurl}}/new-students/jobs.html';">Jobs</button>
                         <button onclick="window.location.href='{{site.baseurl}}/new-students/enrollment.html';">Enrollment</button>
@@ -109,7 +110,7 @@
                 <div id="menu1" class="tab-pane fade">
                   <aside class= col-3 id="mobile-aside">
                     <button onclick="window.location.href='{{site.baseurl}}/new-students/programs.html';">Programs</button>
-                    <button onclick="window.location.href='{{site.baseurl}}/new-students/admission.html';">Admission</button>
+                    <!-- <button onclick="window.location.href='{{site.baseurl}}/new-students/admission.html';">Admission</button> -->
                     <button onclick="window.location.href='{{site.baseurl}}/new-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>
                     <button onclick="window.location.href='{{site.baseurl}}/new-students/jobs.html';">Jobs</button>
                     <button onclick="window.location.href='{{site.baseurl}}/new-students/enrollment.html';">Enrollment</button>
@@ -155,7 +156,7 @@
                    </section>
                     <aside class= col-4 id="desktop-aside">
                         <button onclick="window.location.href='{{site.baseurl}}/new-students/programs.html';">Programs</button>
-                        <button onclick="window.location.href='{{site.baseurl}}/new-students/admission.html';">Admission</button>
+                        <!-- <button onclick="window.location.href='{{site.baseurl}}/new-students/admission.html';">Admission</button> -->
                         <button onclick="window.location.href='{{site.baseurl}}/new-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>
                         <button onclick="window.location.href='{{site.baseurl}}/new-students/jobs.html';">Jobs</button>
                         <button onclick="window.location.href='{{site.baseurl}}/new-students/enrollment.html';">Enrollment</button>

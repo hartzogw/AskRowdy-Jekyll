@@ -4,7 +4,6 @@ subtitle: "FAQ"
 categories:
     - transfer-students
     - FAQ
-    - enrollment
     - prospective
     - enrollment
     - new

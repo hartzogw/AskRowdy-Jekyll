@@ -3,7 +3,6 @@ title: "How do I fill up the advising form?"
 subtitle: "FAQ"
 categories:
     - advising-question
-    - enrollment
     - new
     - current
 ---

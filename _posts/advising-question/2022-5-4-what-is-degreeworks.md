@@ -3,7 +3,6 @@ title: "What is DegreeWorks?"
 subtitle: "FAQ"
 categories:
     - advising-question
-    - enrollment
     - new
     - current
 ---
