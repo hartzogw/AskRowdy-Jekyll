@@ -13,12 +13,12 @@ categories:
     <div class="accordion-body">
         <div class="fs-cell fs-lg-8 fs-lg-justify-center">
             <div class="typography">
-                <h2><span data-contrast="none" lang="EN" xml:lang="EN"
+                <h3><span data-contrast="none" lang="EN" xml:lang="EN"
                         class="TextRun MacChromeBold SCXW184871490 BCX0"><span data-ccp-parastyle="heading 3"
                             class="NormalTextRun SCXW184871490 BCX0">Current Year </span></span><span
                         data-contrast="none" lang="EN" xml:lang="EN"
                         class="TextRun MacChromeBold SCXW184871490 BCX0"><span data-ccp-parastyle="heading 3"
-                            class="NormalTextRun SCXW184871490 BCX0">Fee Schedules </span></span></h2>
+                            class="NormalTextRun SCXW184871490 BCX0">Fee Schedules </span></span></h3>
                 <p><strong>Tuition and General Fees are required costs per credit hour and assessed for all courses to
                         cover educational and other expenses not funded by the State of Missouri.&nbsp;&nbsp;</strong>
                 </p>
@@ -65,6 +65,6 @@ categories:
                             data-ccp-props="{&quot;201341983&quot;:0,&quot;335559740&quot;:240}"></span></li>
                 </ul><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559740&quot;:240}"><a id="fees"></a></span>
             </div>
-        </div><a href="https://semo.edu/student-support/financial-services/cost/index.html">Cost &amp; Fees</a>
+        </div><a href="https://semo.edu/student-support/financial-services/cost/index.html" target="blank">Cost &amp; Fees</a>
     </div>
 </div>

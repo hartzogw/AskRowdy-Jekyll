@@ -16,7 +16,7 @@ If you have questions about your billing, payments, and refunds we are here to a
         
 Need to know when to expect your bill, how to find your bill, or when it’s due? We’ll break it down with handy links and resources, so that’s one less thing you have to stress over. 
 
-<a href="https://semo.edu/student-support/financial-services/payments-refunds/index.html">Billing Information</a>
+<a href="https://semo.edu/student-support/financial-services/payments-refunds/index.html" target="blank">Billing Information</a>
 
-<a href="https://semo.edu/student-support/financial-services/payments-refunds/index.html">Tuition Payment &amp; Refund</a>
+<a href="https://semo.edu/student-support/financial-services/payments-refunds/index.html" target="blank">Tuition Payment &amp; Refund</a>
     

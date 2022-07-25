@@ -10,6 +10,6 @@ An online tool to help students and advisors monitor progress toward degree comp
 
 Please review your DegreeWorks to find out what courses you need to take. 
 
-For more details, you may visit [https://semo.edu/registrar/degreeworks.html](https://semo.edu/registrar/degreeworks.html).
+For more details, you may visit <a href="https://semo.edu/registrar/degreeworks.html" target="">https://semo.edu/registrar/degreeworks.html</a>.
 
-Video link: [https://www.youtube.com/watch?v=SDQb6Bd8up8](https://www.youtube.com/watch?v=SDQb6Bd8up8)
+Video link: <a href="https://www.youtube.com/watch?v=SDQb6Bd8up8" target="">https://www.youtube.com/watch?v=SDQb6Bd8up8</a>

@@ -16,9 +16,9 @@ During summer and breaks, students may be eligible for additional hours, based o
 High school, provisionally admitted students, Cape College Center students,
 and students enrolled in the&nbsp;intensive English&nbsp;program are not eligible to work on campus. &nbsp;
 
-The&nbsp;Office of Career Services posts available student worker positions on  [REDHAWKjobs.com](https://redhawkjobs.com/)
+The&nbsp; <a href="https://semo.edu/student-support/career-support/career-services/index.html" target="blank"> Office of Career Services </a>  posts available student worker positions on <a href="https://semo.edu/student-support/career-support/career-services/redhawk-jobs.html" target="blank">REDHAWKjobs.com</a>
 
 Additional information concerning student employment can be found in 
-<a href="https://semo.edu/student-conduct/_pdfs/code_of_student_conduct_3.pdf" >the Student Employment Handbook</a>
+<a href="https://semo.edu/student-conduct/_pdfs/code_of_student_conduct_3.pdf" target="blank" >the Student Employment Handbook</a>
 
-<a href="https://semo.edu/hr/student-employment.html">On Campus Job</a>
+<a href="https://semo.edu/hr/student-employment.html" target="blank">On Campus Job</a>

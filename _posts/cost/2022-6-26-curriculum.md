@@ -5,6 +5,7 @@ categories:
     - transfer-students
     - prospective
     - new
+    - cs
     
 ---
 Curriculum checklist for Applied Computer Science (30 hours)

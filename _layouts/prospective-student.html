@@ -59,6 +59,7 @@
                       <button onclick="window.location.href='{{site.baseurl}}/prospective-students/apply_now.html';">Apply Now</button>
                   </aside>  
                   <section id=accordion-content class=col-8>
+                    {{post}}
                     {% for post in site.posts %}
   
                        {% if post.categories contains page.categories[1] %}      
@@ -115,6 +116,7 @@
                       <button onclick="window.location.href='{{site.baseurl}}/prospective-students/apply_now.html';">Apply Now</button>
                 </aside>  
                 <section id=accordion-content class=col-8>
+
                   {% for post in site.posts %}
 
                      {% if post.categories contains page.categories[1] %}      
@@ -122,7 +124,7 @@
                          {% if post.subtitle == "Subsection" %}
 
                              {% include accordions.html %}
-
+                             
                          {% endif %}
                          
                      {% endif %}

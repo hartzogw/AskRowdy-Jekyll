@@ -55,9 +55,9 @@ categories:
                         of credit hours in a year and maintain a select GPA and the renewal process is quick and
                         easy.</span></li>
             </ul>
-            <p><a href="https://semo.edu/student-support/financial-services/financial-aid/terms.html"><span
+            <p><a href="https://semo.edu/student-support/financial-services/financial-aid/terms.html" target="blank"><span
                         data-contrast="auto">Southeast Scholarship Terms and Conditions</span></a></p>
         </div><a
-            href="https://semo.edu/student-support/financial-services/financial-aid/se-scholarships.html">Scholarship</a>
+            href="https://semo.edu/student-support/financial-services/financial-aid/se-scholarships.html" target="blank">Scholarship</a>
     </div>
 </div>

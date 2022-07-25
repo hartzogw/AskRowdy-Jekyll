@@ -1,6 +1,6 @@
 ---
 title: Online Program Fees
-subtitle: "Subsection"
+subtitle: "FAQ"
 categories:
     - cost
     - tuition-and-scholarship
@@ -10,6 +10,6 @@ categories:
 ---
  Online ONLY (SE Online Degrees)- Graduate : $386.50 (per credit hour)
 
-More Info: [Click here](https://semo.edu/student-support/financial-services/cost/index.html)
+<a href="https://semo.edu/student-support/financial-services/cost/index.html" target="blank">Click Here </a>
 
 Please email **sfs@semo.edu** for more details
