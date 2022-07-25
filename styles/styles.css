@@ -216,7 +216,7 @@ aside-active {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.accordion .active, .accordion:hover {
   background-color: #ccc;
 }
 
@@ -241,6 +241,8 @@ aside-active {
   border-color: #5B6670;
   border-style: solid;
   border-radius: .5em;
+  max-height: 300px;
+  overflow-y: scroll;
   display: none;
   /*overflow: hidden;*/
 }
@@ -281,6 +283,7 @@ aside-active {
 
 #nav_menu ul li a.current {
     text-decoration-color: black;
+    color:#C8102E;
 }
 #nav_menu ul li a:hover {
     text-decoration-color: black;
