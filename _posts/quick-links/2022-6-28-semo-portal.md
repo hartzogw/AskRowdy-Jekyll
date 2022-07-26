@@ -6,4 +6,5 @@ categories:
     - prospective
     - new
 ---
-<a href="HTTP://PORTAL.SEMO.EDU/">Login To Semo Portal</a>
+To access SEMO Portal
+<a href="HTTP://PORTAL.SEMO.EDU/" target="blank">Login Here</a>

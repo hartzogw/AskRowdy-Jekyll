@@ -6,4 +6,4 @@ categories:
     - prospective
     - new
 ---
-<a  href="HTTP://LIBRARY.SEMO.EDU/">Kent Library</a>
+To access Southeast's library resources<a  href="HTTP://LIBRARY.SEMO.EDU/" target="blank">Click Here</a>

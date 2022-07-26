@@ -2,8 +2,8 @@
 title: Course descriptions
 subtitle: "Subsection"
 categories:
-    - enrollment
     - prospective
+    - enrollment
     - programs
     - new
 ---
