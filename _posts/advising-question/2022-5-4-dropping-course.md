@@ -2,6 +2,7 @@
 title: "How do I drop a course?"
 subtitle: "FAQ"
 categories:
+    - FAQ
     - advising-question
     - new
     - current

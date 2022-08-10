@@ -2,6 +2,7 @@
 title: "Is there a fixed order for the courses to enroll in?"
 subtitle: "FAQ"
 categories:
+    - FAQ
     - advising-question
     - enrollment
     - prospective

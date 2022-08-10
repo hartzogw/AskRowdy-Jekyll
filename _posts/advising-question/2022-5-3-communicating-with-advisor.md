@@ -2,6 +2,7 @@
 title: "How do I communicate with my academic advisor?"
 subtitle: "FAQ"
 categories:
+    - FAQ
     - prospective
     - new
     - current

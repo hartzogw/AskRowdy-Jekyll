@@ -2,6 +2,7 @@
 title: Can you waive off my prerequisites courses?
 subtitle: "FAQ"
 categories:
+ - FAQ
  - prospective
  - programs
 ---

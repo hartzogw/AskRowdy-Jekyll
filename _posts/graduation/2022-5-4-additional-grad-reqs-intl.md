@@ -2,6 +2,7 @@
 title: "Are there any additional requirements for the international student for graduation?"
 subtitle: "FAQ"
 categories:
+    - FAQ
     - graduation
     - prospective
     - new

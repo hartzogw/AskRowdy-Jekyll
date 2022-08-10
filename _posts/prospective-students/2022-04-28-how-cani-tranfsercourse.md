@@ -2,6 +2,7 @@
 title: How can I transfer the courses?
 subtitle: "FAQ"
 categories:
+ - FAQ
  - prospective
  - admission
 ---

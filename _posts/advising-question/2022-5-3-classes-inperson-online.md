@@ -2,6 +2,7 @@
 title: "Are the classes going to be in-person or by online?"
 subtitle: "FAQ"
 categories:
+    - FAQ
     - advising-question
     - prospective
     - new

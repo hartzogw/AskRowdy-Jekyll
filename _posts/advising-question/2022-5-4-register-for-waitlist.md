@@ -2,6 +2,7 @@
 title: "How do I register on the waitlist for courses that are closed?"
 subtitle: "FAQ"
 categories:
+    - FAQ
     - advising-question
     - new
     - prospective

@@ -2,6 +2,7 @@
 title: "Do you have a rough estimate of the extra fees like textbooks, miscellaneous fees etc.? : "
 subtitle: "FAQ"
 categories:
+    - FAQ
     - cost
     - tuition-and-scholarship
     - prospective

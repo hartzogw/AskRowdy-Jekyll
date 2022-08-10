@@ -2,6 +2,7 @@
 title: Online Program Fees
 subtitle: "FAQ"
 categories:
+    - FAQ
     - cost
     - tuition-and-scholarship
     - current
