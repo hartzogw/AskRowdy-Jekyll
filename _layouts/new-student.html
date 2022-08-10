@@ -181,47 +181,50 @@
               </div>
             </div>
         </div>
-        <script>
-            var acc = document.getElementsByClassName("accordion");
-            var i;
-    
-            for (i = 0; i < acc.length; i++) {
-                acc[i].addEventListener("click", function() {
-                    /* Toggle between adding and removing the "active" class,
-                    to highlight the button that controls the panel */
-                    this.classList.toggle("active");
-    
-                /* Toggle between hiding and showing the active panel */
-                    var panel = this.nextElementSibling;
-                    if (panel.style.display === "block") {
-                      panel.style.display = "none";
-                    } else {
-                      panel.style.display = "block";
-                }
-              });
+        {% include information.html %}
+      </main>
+      {% include footer.html %}
+      <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+  
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                /* Toggle between adding and removing the "active" class,
+                to highlight the button that controls the panel */
+                this.classList.toggle("active");
+  
+            /* Toggle between hiding and showing the active panel */
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
             }
-
-            $(document).ready(function() {
-              var Path = window.location.href;
-              Path = Path.split("/");
-              var selectedCategory = Path[Path.length-1]
-              var header = document.getElementsByTagName("aside");
-              for (var i = 0; i < header.length; i++) {
-                var btns = header[i].children;
-                for (var j = 0; j < btns.length; j++) {
-                  btns[j].className  =  btns[j].className.replace(" activeTab", "");
-                  var basUri = btns[j].outerHTML;
-                  var hrefValue = $(basUri).attr("onclick");
-                  basUri = hrefValue.split("/");
-                  var selectedasidebtn = basUri[basUri.length-1].replace("';","");
-                  if(selectedCategory == selectedasidebtn){
-                    btns[j].className += " activeTab";
-                  }
-                }
+          });
+        }
+  
+        $(document).ready(function() {
+          var Path = window.location.href;
+          Path = Path.split("/");
+          var selectedCategory = Path[Path.length-1]
+          var header = document.getElementsByTagName("aside");
+          for (var i = 0; i < header.length; i++) {
+            var btns = header[i].children;
+            for (var j = 0; j < btns.length; j++) {
+              btns[j].className  =  btns[j].className.replace(" activeTab", "");
+              var basUri = btns[j].outerHTML;
+              var hrefValue = $(basUri).attr("onclick");
+              basUri = hrefValue.split("/");
+              var selectedasidebtn = basUri[basUri.length-1].replace("';","");
+              if(selectedCategory == selectedasidebtn){
+                btns[j].className += " activeTab";
               }
-            });
-        </script>
-    </main>
-    {% include footer.html %}
-</body>
-<html>
+            }
+          }
+        });
+        
+    </script>
+  </body>
+  <html>
+  

@@ -350,3 +350,12 @@ li a.nav-current {
         font-size: 1em;
     }
 }
+.center{
+    margin: auto;
+    width: 80%;
+    border: 3px solid #C8102E;
+    padding: 20px;
+}
+.disclaimer{
+    padding: 20px 0px;
+}
