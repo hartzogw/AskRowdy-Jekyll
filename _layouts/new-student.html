@@ -30,6 +30,10 @@
       background-color: black !important;
       color: white !important;
     }
+    .activeTab {
+      background-color: #C8102E !important;
+      color: white;
+    }
   </style>
     {% include header-new.html %}
     <main>
@@ -56,6 +60,7 @@
                     <button onclick="window.location.href='{{site.baseurl}}/new-students/jobs.html';">Jobs</button>
                     <button onclick="window.location.href='{{site.baseurl}}/new-students/enrollment.html';">Enrollment</button>
                     <button onclick="window.location.href='{{site.baseurl}}/new-students/faq.html';">FAQ</button>
+                    <button onclick="window.location.href='{{site.baseurl}}/new-students/quick_links.html';">Quick Links</button>
                     <!-- <button onclick="window.location.href='{{site.baseurl}}/new-students/apply_now.html';">Apply Now</button> -->
                     <button onclick="window.location.href='{{site.baseurl}}/new-students/graduation.html';">Graduation</button> 
                 </aside>  
@@ -195,6 +200,26 @@
                 }
               });
             }
+
+            $(document).ready(function() {
+              var Path = window.location.href;
+              Path = Path.split("/");
+              var selectedCategory = Path[Path.length-1]
+              var header = document.getElementsByTagName("aside");
+              for (var i = 0; i < header.length; i++) {
+                var btns = header[i].children;
+                for (var j = 0; j < btns.length; j++) {
+                  btns[j].className  =  btns[j].className.replace(" activeTab", "");
+                  var basUri = btns[j].outerHTML;
+                  var hrefValue = $(basUri).attr("onclick");
+                  basUri = hrefValue.split("/");
+                  var selectedasidebtn = basUri[basUri.length-1].replace("';","");
+                  if(selectedCategory == selectedasidebtn){
+                    btns[j].className += " activeTab";
+                  }
+                }
+              }
+            });
         </script>
     </main>
     {% include footer.html %}
