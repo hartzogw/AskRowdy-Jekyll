@@ -2,6 +2,7 @@
 title: Transfer Mentor Program?
 subtitle: "FAQ"
 categories:
+ - FAQ
  - prospective
  - admission
 ---

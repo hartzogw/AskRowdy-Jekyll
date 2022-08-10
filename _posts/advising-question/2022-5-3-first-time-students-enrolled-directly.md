@@ -2,6 +2,7 @@
 title: "Note: First time students are directly enrolled into the courses."
 subtitle: "FAQ"
 categories:
+    - FAQ
     - advising-question
     - new
     - current

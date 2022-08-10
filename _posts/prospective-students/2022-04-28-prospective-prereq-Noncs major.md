@@ -2,6 +2,7 @@
 title: "Prereq: Non-CS majors "
 subtitle: "FAQ"
 categories:
+ - FAQ
  - prospective
  - programs
 ---

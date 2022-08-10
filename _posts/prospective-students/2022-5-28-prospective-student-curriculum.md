@@ -1,6 +1,7 @@
 ---
 title: " Curriculum "
 subtitle: "Subsection"
+program: "CS"
 categories: 
     - prospective
     - new

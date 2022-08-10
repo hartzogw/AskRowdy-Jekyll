@@ -1,5 +1,6 @@
 ---
 title: Curriculum
+program: "CS"
 category: prospective-student-program
 ---
 Curriculum checklist for Applied Computer Science (30 hours)

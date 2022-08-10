@@ -3,6 +3,7 @@ title: "How to transfer credit?"
 subtitle: "FAQ"
 categories:
     - transfer-students
+    - FAQ
     - admission
     - prospective
     - new

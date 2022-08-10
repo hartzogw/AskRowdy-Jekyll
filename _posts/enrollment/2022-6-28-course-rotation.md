@@ -18,8 +18,7 @@ categories:
 
 Note: These schedules are subject to change based on student needs and faculty availability. 
 
-Pls, verify on *[portal.semo.edu*](http://portal.semo.edu) for the latest course schedule.
-
+Pls, verify on *<a href="http://portal.semo.edu" target="blank">portal.semo.edu*</a>for the latest course schedule.
 # Course Rotation (core courses)
 
 Pre-requisite courses (CS500, CS503) - Spring, Summer, Fall
@@ -49,4 +48,4 @@ The elective course schedule varies as per student requirements.
 
 Note: These schedules are subject to change based on student needs and faculty availability. 
 
-Pls, verify on *[portal.semo.edu*](http://portal.semo.edu) for the latest course schedule.
+Pls, verify on *<a href="http://portal.semo.edu" target="blank">portal.semo.edu*</a>for the latest course schedule.

@@ -1,7 +1,7 @@
 ---
 title: "What is the academic program layout?"
 subtitle: "FAQ"
-categories:
+categories: 
     - prospective
 ---
 Potential academic program layout (for Applied CS):

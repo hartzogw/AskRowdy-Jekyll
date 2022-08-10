@@ -2,6 +2,7 @@
 title: What is the criteria for admission as a Transfer Student
 subtitle: "FAQ"
 categories: 
+- FAQ
 - admission
 - prospective
 ---

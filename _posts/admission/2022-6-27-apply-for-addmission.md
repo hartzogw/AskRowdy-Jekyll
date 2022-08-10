@@ -2,6 +2,7 @@
 title: "How do you apply for admission?"
 subtitle: "FAQ"
 categories:
+    - FAQ
     - admission
     - applynow
     - prospective
