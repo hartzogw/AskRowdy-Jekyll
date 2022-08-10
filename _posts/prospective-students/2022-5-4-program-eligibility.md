@@ -3,8 +3,8 @@ title: Program Eligibility
 subtitle: "Subsection"
 program: "CS"
 categories: 
-        - prospective
         - programs
+        - prospective
 
 subcategory: computer-science
 ---

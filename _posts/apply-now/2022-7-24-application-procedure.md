@@ -5,5 +5,4 @@ categories:
     - prospective
     - applynow
 ---
-<a href="https://semo.edu/international/admissions/grad.html" target="blank">Click Here</a>
-
+<a href="https://semo.edu/international/admissions/grad.html" target="blank">For detailed Application Procedure follow Link </a>
