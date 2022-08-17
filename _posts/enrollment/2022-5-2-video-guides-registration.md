@@ -18,9 +18,9 @@ categories:
 
 Continuing students, please send your advising forms with your DegreeWorks to: <a href="mailto:csgradprograms@semo.edu" target="blank">csgradprograms@semo.edu</a>[]() 
 
-<a href="{{site.baseurl}}/assets/MSCY Advising.pdf" target="blank">MSACS Advising Form.pdf</a>
+<a href="{{site.baseurl}}/assets/MSCS Advising.pdf" target="blank">MSACS Advising Form.pdf</a>
 
-[MS CY Advising Form Fall 2021.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8a3cb691-9afc-4e67-9e3a-6832929092ea/MS_CY_Advising_Form_Fall_2021.pdf)
+<a href="{{site.baseurl}}/assets/MS CY Advising Form.pdf" target="blank">MSCY Advising Form.pdf</a>
 
 <a href="https://www.youtube.com/watch?v=fGxkWKEO1Dc&ab_channel=SemoComputerScience" target="blank">Filling an Advising Form</a>
 
