@@ -3,9 +3,8 @@ title: Program Eligibility
 subtitle: "Subsection"
 program: "CS"
 categories: 
+        - prospective-student-cs-program
         - programs
-        - prospective
-
 subcategory: computer-science
 ---
 Completed at least 6 hours of science and 6 hours of mathematics in undergraduate degree 
