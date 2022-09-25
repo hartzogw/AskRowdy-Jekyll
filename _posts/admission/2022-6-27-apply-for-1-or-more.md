@@ -7,5 +7,4 @@ categories:
     - applynow
     - prospective
 ---
-
-Need Content
+Yes

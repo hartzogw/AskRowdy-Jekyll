@@ -7,4 +7,4 @@ categories:
     - applynow
     - prospective
 ---
-Yes 
+Yes as long as it counts towards your MS Applied CS or Cybersecurity degree. 

@@ -52,3 +52,4 @@ You can either suggest a topic or approach a professor for potential topics. The
 </table>
 
 <a href="{{site.baseurl}}/assets/GraduateIndependentStudyApprovalForm.pdf" target="blank">GraduateIndependentStudyApprovalForm.pdf</a>
+
