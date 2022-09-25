@@ -1,13 +1,12 @@
 <button class="accordion"><strong>{{post.title}}</strong>
   <span class="shareLink">
-    <a onclick="myFunction('{{post.id}}')" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom"  title="Copy to clipboard" id="link_{{post.id}}" value="http://127.0.0.1:4000{{site.baseurl}}{{page.url}}/{{post.id}}">
+    <a onclick="myFunction('{{post.id}}')" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom"  title="Copy to clipboard" id="link_{{post.id}}" value="https://cscygraduates.github.io/{{site.baseurl}}{{page.url}}/{{post.id}}">
     <i class="fa-solid fa-share-from-square"></i></a></span>
     <!-- <strong><a id="CopLink" class="shareLink" id="shareLink{{post.currentId}}" value="http://127.0.0.1:4000{{site.baseurl}}{{page.url}}/{{post.currentId}}">Share link</a></strong> -->
 </button> 
     {% assign my_array = {{post.id}} | split: "/" | last %}
 <div class="panel" id={{my_array}}>
-    <p>{{post.content}}</p>   
-    <p>{{post.id}}</p> 
+    <p>{{post.content}}</p>
 </div>
 
 <script>
