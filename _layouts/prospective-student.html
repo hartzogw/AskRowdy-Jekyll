@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/b15ad03e0d.js" crossorigin="anonymous"></script>
     <title>Help Center: CS Grad Student</title>
 </head>
 <body>
@@ -34,6 +35,14 @@
       background-color: #C8102E !important;
       color: white;
     }
+    #accordions{
+      background-color: #C8102E !important;
+      color: white;
+      float: left;
+      padding:10px 20px;
+      margin-right:20px;
+      margin-bottom: 20px;
+    }
   </style>
     {% include header-prospective.html %}
     <main>
@@ -42,7 +51,8 @@
             {% include image.html %}
           </div>
           <div class="col-md-10">
-           
+            <button type="button" id="accordions" class="btn btn-danger">Expand/ Collapse All</button>
+            <!-- <button type="button" id="openaccordion" class="btn btn-danger">open Curriculum</button> -->
             <!--Due to the way the HTML is written the mobile-aside.html needs to stay above accordions.html in this HTML file. 
                 This is how I was able to get this menu above the accordions instead of besided them in a mobile viewport. WH-->
            
@@ -182,6 +192,7 @@
     </main>
     {% include footer.html %}
     <script>
+     $('.js-tooltip').tooltip();
       var acc = document.getElementsByClassName("accordion");
       var i;
 
@@ -204,7 +215,17 @@
       $(document).ready(function() {
         var Path = window.location.href;
         Path = Path.split("/");
-        var selectedCategory = Path[Path.length-1]
+        var lastParameterURL = Path[Path.length-1];
+        if(Path[Path.length-1].includes('.html')){
+          var selectedCategory = lastParameterURL;
+          var openAccordiondefault = "";
+        }
+        else{
+          var selectedCategory = Path[Path.length-2];
+          var openAccordiondefault = lastParameterURL;
+        }
+
+        console.log('selectedCategory',selectedCategory);
         var header = document.getElementsByTagName("aside");
         for (var i = 0; i < header.length; i++) {
           var btns = header[i].children;
@@ -216,10 +237,37 @@
             var selectedasidebtn = basUri[basUri.length-1].replace("';","");
             if(selectedCategory == selectedasidebtn){
               btns[j].className += " activeTab";
+              if(!(lastParameterURL.includes('.html'))){
+              //  $("#"+openAccordiondefault[0]).scrollTo();
+                $("#"+openAccordiondefault).collapse('toggle');
+              }
+
             }
           }
         }
       });
+
+     function openLink(selectedSubSection){
+       var Path = window.location.href;
+        Path = Path.split("/");
+        var openAccordiondefault = Path[Path.length-1];
+       // var openAccordiondefault = Path[Path.length-2];
+        alert(openAccordiondefault);
+        if(isNaN(openAccordiondefault)){
+          window.location.href=+openAccordiondefault;
+        }else{
+          window.location.href=+openAccordiondefault;
+        }
+      }
+   
+     $('#accordions').on('click', function () {
+        $('.panel').collapse('toggle');
+    });
+
+    $('#openaccordion').on('click', function () {
+       // window.location.href={{site.baseurl}}+'/prospective-students/programs.html'
+        $('#3').collapse('toggle');
+    });
       
   </script>
 </body>
