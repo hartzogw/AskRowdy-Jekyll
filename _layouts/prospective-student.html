@@ -246,27 +246,9 @@
           }
         }
       });
-
-     function openLink(selectedSubSection){
-       var Path = window.location.href;
-        Path = Path.split("/");
-        var openAccordiondefault = Path[Path.length-1];
-       // var openAccordiondefault = Path[Path.length-2];
-        alert(openAccordiondefault);
-        if(isNaN(openAccordiondefault)){
-          window.location.href=+openAccordiondefault;
-        }else{
-          window.location.href=+openAccordiondefault;
-        }
-      }
    
      $('#accordions').on('click', function () {
         $('.panel').collapse('toggle');
-    });
-
-    $('#openaccordion').on('click', function () {
-       // window.location.href={{site.baseurl}}+'/prospective-students/programs.html'
-        $('#3').collapse('toggle');
     });
       
   </script>
