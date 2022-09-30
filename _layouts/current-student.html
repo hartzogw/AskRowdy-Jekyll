@@ -81,8 +81,12 @@
 
                             {% unless post.program == "cyber" %}
                                 
+                            {% unless post.nonCurrent == "exclude" %}
+
                               {% include accordions.html %}
                   
+                            {% endunless %}
+
                             {% endunless %}
                            
 
