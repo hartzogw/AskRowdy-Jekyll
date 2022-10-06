@@ -148,7 +148,11 @@
 
                               {% unless post.program == "CS" %}
                                   
-                                {% include accordions.html %}
+                                  {% unless post.nonCurrent == "exclude" %}
+
+                                     {% include accordions.html %}
+                      
+                                  {% endunless %}
                     
                               {% endunless %}
                            
