@@ -240,6 +240,12 @@ aside-active {
   font-size: 1.8em;
 }
 
+.search_faq{
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
