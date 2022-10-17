@@ -8,113 +8,108 @@ categories:
     - prospective
     - new
 ---
+
+
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
 ### Potential academic program layout (for Applied CS):
 
-2 years, without summer class:
-<table>
-<colgroup>
-<col width="25%" />
-<col width="30%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>      </th>
-<th>Spring</th>
-<th>Summer</th>
-<th>&nbsp;Fall</th>
-</tr>
-</thead>
-<br>
-<tbody>
-<tr>
-<td markdown="span">**Year 1**</td>
-<td markdown="span">2 core courses, <br> 1 elective </td>
-<td markdown="span"></td>
-<td markdown="span">2 core courses, <br> 1 elective.</td>
-</tr>
-<br>
-<tr>
-<td markdown="span">**Year 2(option 1)**</td>
-<td markdown="span">1 core course<br> 2 elective.
-</td>
-<td markdown="span">
-</td>
-<td markdown="span">1 core course
-</td>
-</tr>
-<br>
-<tr>
-<td markdown="span">**Year 2 (option 2)**</td>
-<td markdown="span">2 core courses,<br> 1 elective
-</td>
-<td markdown="span">
-</td>
-<td markdown="span">1 elective
-</td>
-</tr>
-</tbody>
+#### 2 years, without summer class:
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Spring</th>
+      <th scope="col">Summer</th>
+      <th scope="col">Fall</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Year 1</th>
+      <td>2 core courses     1 elective</td>
+      <td>                              </td>
+      <td>2 core courses     1 elective</td>
+    </tr>
+    <tr>
+      <th scope="row">Year 2 (Option 1)</th>
+      <td>1 core course     2 electives</td>
+      <td>                              </td>
+      <td>1 core course   </td>
+    </tr>
+    <tr>
+      <th scope="row">Year 2 (Option 2)</th>
+      <td>2 core courses     1 elective</td>
+      <td>                              </td>
+      <td>1 elective   </td>
+    </tr>
+  </tbody>
 </table>
 <br>
 
-1.5 years, with summer class:
+#### 1.5 years, with summer class:
 
-<table>
-<colgroup>
-<col width="25%" />
-<col width="30%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>      </th>
-<th>Spring</th>
-<th>Summer</th>
-<th>Fall</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td markdown="span">**Year 1**</td>
-<td markdown="span">2 core courses, <br> 1 elective </td>
-<td markdown="span">1 core course,<br> 1 elective</td>
-<td markdown="span">2 core courses, <br> 1 elective.</td>
-</tr>
-<tr>
-<td markdown="span">**Year 2(option 1)**</td>
-<td markdown="span">1 core course<br> 2 elective.
-</td>
-<td markdown="span">
-</td>
-<td markdown="span">
-</td>
-</tr>
-</tbody>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Spring</th>
+      <th scope="col">Summer</th>
+      <th scope="col">Fall</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Year 1</th>
+      <td>2 core courses     1 elective</td>
+      <td>1 core course       1 elective </td>
+      <td>2 core courses     1 elective</td>
+    </tr>
+    <tr>
+      <th scope="row">Year 2 (option 1)</th>
+      <td>1 core course     1 elective</td>
+      <td>                              </td>
+      <td>                              </td>
+    </tr>
+  </tbody>
+</table>
+<br> 
+
+#### 1 years with summer classes (domestic student only):
+
+
+
+<table class="table" >
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Spring</th>
+      <th scope="col">Summer</th>
+      <th scope="col">Fall</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Year 1</th>
+      <td>2 core courses     1 elective</td>
+      <td>2 core courses     1 elective </td>
+      <td>2 core courses     2 electives</td>
+    </tr>
+  </tbody>
 </table>
 <br>
+<style>
+.table {
+  boarder-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px; 
+}
+  </style>
 
 
-1 years with summer classes (domestic student only):
 
-<table>
-<colgroup>
-<col width="25%" />
-<col width="30%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>      </th>
-<th>Spring</th>
-<th>Summer</th>
-<th>Fall</th>
-</tr>
-</thead>
-<br>
-<tbody>
-<tr>
-<td markdown="span">**Year 1**</td>
-<td markdown="span">2 core courses, <br> 1 elective </td>
-<td markdown="span">2 core courses,<br> 1 elective</td>
-<td markdown="span">2 core course, <br> 2 electives.</td>
-</tr>
-<tr> <td> </td></tr>
-</tbody>
-</table>
