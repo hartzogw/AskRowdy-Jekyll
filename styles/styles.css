@@ -246,6 +246,10 @@ aside-active {
     margin: 10px;
     border-radius: 15px;
 }
+.FAQ_list{
+    height: 500px;
+    overflow-y: scroll;
+}
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;

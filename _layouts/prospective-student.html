@@ -261,9 +261,16 @@
               if(selectedCategory == selectedasidebtn) {
                 btns[j].className += " activeTab";
                 if(!(lastParameterURL.includes('.html'))) {
-                  $("#"+openAccordiondefault).collapse('toggle');
-                    var s =  document.getElementById("accordions");
-                    s.scrollIntoView();
+                    const openAccordion =  openAccordiondefault;
+                    var  currentNode =  document.getElementById(openAccordion);
+                    var currentAccordion = currentNode.previousElementSibling;
+                    console.log("currentNode",currentNode);
+                    currentAccordion.scrollIntoView({
+                      block: 'start',
+                      behavior: 'smooth',
+                      inline: 'end'
+                    }); 
+                   $("#"+openAccordiondefault).collapse('toggle');             
                     return;
                 }
               }
@@ -281,6 +288,8 @@
     //   alert('click')
     //   $("#video-guides-registration")[0].scrollIntoView();
     // });
+
+
 
   function searchFunction() {
     var input, filter, li, a, i, txtValue,accordionPanel;
