@@ -43,10 +43,14 @@
       margin-right:20px;
       margin-bottom: 20px;
     }
+    .row{
+      margin-left:0px;
+      margin-right:0px;
+    }
   </style>
     {% include header-new.html %}
     <main>
-        <div class=row>
+        <div class="row">
           <div class="col-md-2">
             {% include image.html %}
           </div>
@@ -94,8 +98,10 @@
                    {% endfor %}
 
                    <div>
-                     <button class="accordion">FAQ</button>
-                     <div class="panel">
+                    {% unless page.categories[1] == "FAQ" %}
+                    <button class="accordion">FAQ</button>
+                    <div class="panel">
+                      <input type="text" id="myInput" class="search_faq" onkeyup="searchFunction()" placeholder="Search">
                         {% for post in site.posts %}
 
                           {% if post.categories contains page.categories[1] %}      
@@ -111,8 +117,29 @@
             
                         {% endfor %}
                       </div>
-             
-                     </div>
+                      {% endunless %}
+                      {% if page.categories[1] == "FAQ"  %}
+                      <div class="FAQ_list">
+                      
+                      <input type="text" id="myInput" class="search_faq" onkeyup="searchFunction()" placeholder="Search">
+                        {% for post in site.posts %}
+
+                          {% if post.categories contains page.categories[1] %}      
+
+                              {% if post.subtitle == "FAQ" %}
+                              
+                              {% include accordions.html %}
+
+
+                              {% endif %}
+
+                          {% endif %}
+            
+                        {% endfor %}
+                    
+                      </div>
+                      {% endif %}
+                    </div>  
                    </section>
                     <aside class= col-4 id="desktop-aside">
                         <button onclick="window.location.href='{{site.baseurl}}/new-students/programs.html';">Programs</button>
@@ -156,25 +183,26 @@
                    {% endfor %}
 
                    <div>
-                     <button class="accordion">FAQ</button>
-                     <div class="panel">
-                        {% for post in site.posts %}
+                    <button class="accordion">FAQ</button>
+                    <div class="panel">
+                     <input type="text" id="myInput" class="search_faq" onkeyup="searchFunction()" placeholder="Search">
+                       {% for post in site.posts %}
 
-                          {% if post.categories contains page.categories[1] %}      
+                         {% if post.categories contains page.categories[1] %}      
 
-                              {% if post.subtitle == "FAQ" %}
-                              
-                              {% include accordions.html %}
+                             {% if post.subtitle == "FAQ" %}
+                             
+                             {% include accordions.html %}
 
 
-                              {% endif %}
+                             {% endif %}
 
-                          {% endif %}
-            
-                        {% endfor %}
-                      </div>
-             
+                         {% endif %}
+           
+                       {% endfor %}
                      </div>
+            
+                    </div>
                    </section>
                     <aside class= col-4 id="desktop-aside">
                         <button onclick="window.location.href='{{site.baseurl}}/new-students/programs.html';">Programs</button>
@@ -254,6 +282,42 @@
         }
        
       });
+
+      
+  function searchFunction() {
+    var input, filter, li, a, i, txtValue,accordionPanel;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    li = document.getElementsByClassName("accordion");
+    accordionPanel = document.getElementsByClassName("panel");
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+
+     if(li[i].children.length > 0){
+      a = li[i].children[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+      } else {
+        li[i].style.display = "none";
+      }
+     }
+
+    //  for (i = 0; i < accordionPanel.length; i++) {
+
+    //     if(accordionPanel[i].children.length > 0){
+    //     a = accordionPanel[i].children[0];
+    //     txtValue = a.textContent || a.innerText;
+    //     if (txtValue.toUpperCase().indexOf(filter) > -1) {
+    //       accordionPanel[i].style.display = "";
+    //     } else {
+    //       accordionPanel[i].style.display = "none";
+    //     }
+    //   }
+
+     
+    }
+  }
       
         $('#accordions').on('click', function () {
            $('.panel').collapse('toggle');
