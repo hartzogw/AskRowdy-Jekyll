@@ -4,7 +4,6 @@ subtitle: "FAQ"
 categories:
     - FAQ
     - admission
-    - applynow
-    - prospective
+    
 ---
 Yes as long as it counts towards your MS Applied CS or Cybersecurity degree. 

@@ -1,6 +1,7 @@
 ---
 title: Program Eligibility
 subtitle: "Subsection"
+nonCurrent: "exclude"
 program: "CS"
 categories: 
         - prospective-student-cs-program

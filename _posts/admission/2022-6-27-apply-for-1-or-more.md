@@ -7,4 +7,5 @@ categories:
     - applynow
     - prospective
 ---
-Yes
+
+Yes.You can apply more than one program.

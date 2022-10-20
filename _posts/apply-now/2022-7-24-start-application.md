@@ -5,6 +5,18 @@ categories:
     - prospective
     - applynow
 ---
+<h4>Application Procedure</h4>
 
-To Apply Now Follow Link : <a href="https://app.semoadmissions.org/?_sp=66d2fcbf-b482-4b52-a0f0-db49197406c8.1634057738901" target="balnk">Click Here</a>
+<a href="https://semo.edu/international/admissions/grad.html" target="blank">For detailed application procedure</a>
+ 
+ <h4>Apply Now</h4>
+
+
+ <a href="https://app.semoadmissions.org/?_sp=6097506c-8235-419e-bb60-b4d74ff237fa.1648826493990" target="blank">Domestic Student</a>
+ 
+ 
+
+ <a href="https://semo.edu/international/admissions/index.html " target="blank">International Student</a>
+
+
 

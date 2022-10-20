@@ -17,15 +17,21 @@
     postUniqueId = postId.split("/").pop();
     var postCopiedLink = "";
     var checkLastSelectedAccordion = copyText.baseURI.split("/").pop();
-    if(checkLastSelectedAccordion.includes('.html')){
-      postCopiedLink = copyText.baseURI+"/"+postUniqueId;
-    } else { 
-      var modifiedUrl = copyText.baseURI.split("/").slice(0, -1).join('/')
-      postCopiedLink = modifiedUrl+"/"+postUniqueId;
+    const selectedAccordion = checkLastSelectedAccordion.split("?");
+    if(!checkLastSelectedAccordion.includes('id')) {
+      postCopiedLink = copyText.baseURI+"?id="+postUniqueId;
+    } else {
+      if(postUniqueId != selectedAccordion[1].substring(3)){
+       const trimmedSelectedUrl = copyText.baseURI.substring(0,  copyText.baseURI.lastIndexOf('=') + 1);
+        postCopiedLink = trimmedSelectedUrl+postUniqueId;
+      } else {
+        postCopiedLink = copyText.baseURI;
+      }
     }
     navigator.clipboard.writeText(postCopiedLink);
     var successful = document.execCommand('copy');
-      var msg = successful ? 'Copied!' : 'Whoops, not copied!';
-     $(copyText).attr('data-original-title', msg).tooltip('show');
+    var msg = successful ? 'Copied!' : 'Whoops, not copied!';
+    $(copyText).attr('data-original-title', msg).tooltip('show');
   }
+
   </script>

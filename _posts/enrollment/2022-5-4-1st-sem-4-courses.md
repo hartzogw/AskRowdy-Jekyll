@@ -4,6 +4,7 @@ subtitle: "Subsection"
 categories:
     - current
     - enrollment
+    - new
 ---
 
 # **Request for 4 courses in 1st semester**

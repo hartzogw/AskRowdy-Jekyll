@@ -3,10 +3,10 @@ title: On Campus Job
 subtitle: "Subsection"
 categories:
     - cost
-    - job
     - current
     - new
     - prospective
+    - job 
 ---
 To be eligible to participate in the student employment programs at Southeast,
 students must be enrolled in a degree-seeking program and enrolled in a minimum number of hours&nbsp;(U.S. citizens – 6 hours, international undergraduates – 12 hours, international graduates – 9 hours, international graduate assistants – 6 hours).&nbsp;All student workers are limited to working a <strong> maximum of 20 hours per week </strong>. 

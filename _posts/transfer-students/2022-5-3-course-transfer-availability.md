@@ -1,10 +1,11 @@
 ---
 title: "Which courses will be transferred?"
 subtitle: "FAQ"
+faqselect: "current"
 categories:
     - FAQ
     - transfer-students
-    - prospective
+    - current
     - enrollment
     - new
 ---
