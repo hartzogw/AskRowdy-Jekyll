@@ -71,7 +71,7 @@ table, th, td {
     </tr>
     <tr>
       <th scope="row">Year 2 (option 1)</th>
-      <td>1 core course     1 electives</td>
+      <td>1 core course     1 elective</td>
       <td>                              </td>
       <td>                              </td>
     </tr>
