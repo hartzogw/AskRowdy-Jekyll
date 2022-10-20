@@ -7,4 +7,4 @@ categories:
     - new
 ---
 To access SEMO Portal
-<a href="HTTP://PORTAL.SEMO.EDU/" target="blank">Login Here</a>
+<a href="https://my.semo.edu/" target="blank">Login Here</a>
