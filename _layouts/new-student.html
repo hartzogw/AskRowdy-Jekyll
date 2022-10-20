@@ -248,7 +248,6 @@
         var getLastParameter = Path[Path.length-1];
         const selectedAccordion = getLastParameter.split("?");
           var selectedCategory = selectedAccordion[0];
-          var openAccordiondefault = lastParameterURL;
           var header = document.getElementsByTagName("aside");
           for (var i = 0; i < header.length; i++) {
             var btns = header[i].children;
@@ -262,6 +261,7 @@
                 btns[j].className += " activeTab";
                   if(selectedAccordion.length > 1){
                     var lastParameterURL  = selectedAccordion[1].substring(3);
+                    var openAccordiondefault = lastParameterURL;
                       if(!(lastParameterURL.includes('.html'))) {
                           const openAccordion =  openAccordiondefault;
                           var  currentNode =  document.getElementById(openAccordion);
