@@ -1,5 +1,6 @@
 ---
 title: Transfer Student
+subtitle: "FAQ"
 category: prospective-student-cs-program
 ---
 Regardless of where you may have taken classes in the past, bring it all to us. We'll work with you to review any prior learning, maximize your credits, and plan your path to graduation. 

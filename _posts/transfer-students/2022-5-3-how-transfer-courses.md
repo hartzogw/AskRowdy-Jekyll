@@ -1,9 +1,10 @@
 ---
 title: "How can I transfer the courses?"
+subtitle: "Subsection"
 categories:
     - transfer-students
-    - enrollment
     - prospective
+    - enrollment
     - new
 ---
 For successful transfer of credit, pls email me (rmitra@semo.edu) your official transcript. 

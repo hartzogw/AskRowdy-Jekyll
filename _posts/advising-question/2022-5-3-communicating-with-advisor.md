@@ -1,7 +1,8 @@
 ---
 title: "How do I communicate with my academic advisor?"
+subtitle: "FAQ"
 categories:
-    - enrollment
+    - FAQ
     - prospective
     - new
     - current

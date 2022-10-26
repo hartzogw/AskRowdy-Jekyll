@@ -1,12 +1,13 @@
 ---
 title: "Where can I access all my course materials?"
+subtitle: "FAQ"
 categories:
+    - FAQ
     - advising-question
     - programs
-    - enrollment
     - new
     - current
 ---
 SEMO uses Canvas as our Learning Management Software (LMS).
 
-[https://semo.instructure.com/](https://semo.instructure.com/)
+<a href="https://semo.instructure.com/" target="blank">https://semo.instructure.com/</a>

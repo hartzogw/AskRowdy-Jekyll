@@ -1,9 +1,12 @@
 ---
 title: "Which courses will be transferred?"
+subtitle: "FAQ"
+faqselect: "current"
 categories:
+    - FAQ
     - transfer-students
+    - current
     - enrollment
-    - prospective
     - new
 ---
 Please email me the following info:
@@ -19,4 +22,4 @@ Please email me the following info:
 
 I can evaluate it for you and let you know.
 
-Please follow steps to apply at [How to apply?](https://www.notion.so/How-to-apply-01407b8c8c8147239cf40264e8850691) . Once your file is complete, we will forward the file to the graduate department for review and decision.
+Please follow steps to apply at <a href="https://www.notion.so/How-to-apply-01407b8c8c8147239cf40264e8850691" target="blank">How to apply?.</a> Once your file is complete, we will forward the file to the graduate department for review and decision.

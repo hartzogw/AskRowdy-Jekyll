@@ -1,65 +1,343 @@
 <html lang="en">
 <head>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EJETJWGGNP');
+  </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/b15ad03e0d.js" crossorigin="anonymous"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EJETJWGGNP"></script>
     <title>Help Center: CS Grad Student</title>
 </head>
 <body>
+  <style>
+    .nav-tabs{
+      padding-left: 70px;
+    }
+    .nav-tabs>li>a{
+      border-radius: .5em;
+      background-color: #C8102E;
+      color: white;
+      width: 250px;
+      margin-left: 10px;
+      text-align: center;
+    }
+    .nav-tabs>li>a:hover{
+      background-color: #C8102E;
+      color: white;
+    }
+    .nav-tabs>li.active>a{
+      background-color: black !important;
+      color: white !important;
+    }
+    .activeTab {
+      background-color: #C8102E !important;
+      color: white;
+    }
+    #accordions{
+      background-color: #C8102E !important;
+      color: white;
+      float: left;
+      padding:10px 20px;
+      margin-right:20px;
+      margin-bottom: 20px;
+    }
+    .row{
+      margin-left:0px;
+      margin-right:0px;
+    }
+  </style>
     {% include header-current.html %}
     <main>
-        <div class=row>
+        <div class="row">
+          <div class="col-md-2">
             {% include image.html %}
+          </div>
+          <div class="col-md-10">
+            <button type="button" id="accordions" class="btn btn-danger">Expand/ Collapse All</button>
             <!--Due to the way the HTML is written the mobile-aside.html needs to stay above accordions.html in this HTML file. 
                 This is how I was able to get this menu above the accordions instead of besided them in a mobile viewport. WH-->
-            <aside class= col-3 id="mobile-aside">
-                <button onclick="window.location.href='../current-students/course_info.html';">Course Info</button>
-                <button onclick="window.location.href='../current-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>
-                <button onclick="window.location.href='../current-students/jobs.html';">Jobs</button>
-                <button onclick="window.location.href='../current-students/enrollment.html';">Enrollment</button>
-                <button onclick="window.location.href='../current-students/faq.html';">FAQ</button>
-                <button onclick="window.location.href='../current-students/quick_links.html';">Quick Links</button>
-                <button onclick="window.location.href='../current-students/graduation.html';">Graduation</button>
-            </aside>
-            <section id=accordion-content class=col-7>
-            {% for post in site.posts %}
-                {% if post.category == page.category %}
-                {% include accordions.html %}
-                {% endif %}
-            {% endfor %}
-            </section>
-            <aside class= col-3 id="desktop-aside">
-                <button onclick="window.location.href='../current-students/course_info.html';">Course Info</button>
-                <button onclick="window.location.href='../current-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>
-                <button onclick="window.location.href='../current-students/jobs.html';">Jobs</button>
-                <button onclick="window.location.href='../current-students/enrollment.html';">Enrollment</button>
-                <button onclick="window.location.href='../current-students/faq.html';">FAQ</button>
-                <button onclick="window.location.href='../current-students/quick_links.html';">Quick Links</button>
-                <button onclick="window.location.href='../current-students/graduation.html';">Graduation</button>
-            </aside> 
+           
+            <ul class="nav nav-tabs">
+                <li><a data-toggle="tab" class="cs-cy-buttons" href="#home">Computer Science</a></li>
+                <li><a data-toggle="tab" class="cs-cy-buttons" href="#menu1">Cybersecurity</a></li>
+              </ul>
+            
+              <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+                  <aside class= col-3 id="mobile-aside">
+                    <button onclick="window.location.href='{{site.baseurl}}/current-students/programs.html';">Programs</button>
+                    <button onclick="window.location.href='{{site.baseurl}}/current-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>
+                    <button onclick="window.location.href='{{site.baseurl}}/current-students/jobs.html';">Jobs</button>
+               <button onclick="window.location.href='{{site.baseurl}}/current-students/enrollment.html';">Enrollment</button>
+                    <button onclick="window.location.href='{{site.baseurl}}/current-students/faq.html';">FAQ</button>
+                    <button onclick="window.location.href='{{site.baseurl}}/current-students/quick_links.html';">Quick Links</button>
+                    <button onclick="window.location.href='{{site.baseurl}}/current-students/graduation.html';">Graduation</button>
+                    <button onclick="window.location.href='{{site.baseurl}}/current-students/forms.html';">Forms</button>                   
+                </aside>  
+                <section id=accordion-content class=col-8>
+                  {% for post in site.posts %}
+
+                     {% if post.categories contains page.categories[1] %}      
+
+                         {% if post.subtitle == "Subsection" %}
+
+                            {% unless post.program == "cyber" %}
+                                
+                            {% unless post.nonCurrent == "exclude" %}
+
+                              {% include accordions.html %}
+                  
+                            {% endunless %}
+
+                            {% endunless %}
+                           
+
+                         {% endif %}
+                         
+                     {% endif %}
+       
+                   {% endfor %}
+
+                   <div>
+                    {% unless page.categories[1] == "FAQ" %}
+                    <button class="accordion">FAQ</button>
+                    <div class="panel">
+                      <input type="text" id="myInput" class="search_faq" onkeyup="searchFunction()" placeholder="Search">
+                        {% for post in site.posts %}
+
+                          {% if post.categories contains page.categories[1] %}      
+
+                              {% if post.subtitle == "FAQ" %}
+                              
+                              {% include accordions.html %}
+
+
+                              {% endif %}
+
+                          {% endif %}
+            
+                        {% endfor %}
+                      </div>
+                      {% endunless %}
+                      {% if page.categories[1] == "FAQ"  %}
+                      <div class="FAQ_list">
+                      
+                      <input type="text" id="myInput" class="search_faq" onkeyup="searchFunction()" placeholder="Search">
+                        {% for post in site.posts %}
+
+                          {% if post.categories contains page.categories[1] %}      
+
+                              {% if post.subtitle == "FAQ" %}
+                              
+                              {% include accordions.html %}
+
+
+                              {% endif %}
+
+                          {% endif %}
+            
+                        {% endfor %}
+                    
+                      </div>
+                      {% endif %}
+                    </div>  
+                   </section>
+                    <aside class= col-4 id="desktop-aside">
+                        <button onclick="window.location.href='{{site.baseurl}}/current-students/programs.html';">Programs</button>
+                        <button onclick="window.location.href='{{site.baseurl}}/current-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>
+                        <button onclick="window.location.href='{{site.baseurl}}/current-students/jobs.html';">Jobs</button>
+                       <button onclick="window.location.href='{{site.baseurl}}/current-students/enrollment.html';">Enrollment</button> 
+                        <button onclick="window.location.href='{{site.baseurl}}/current-students/faq.html';">FAQ</button>
+                        <button onclick="window.location.href='{{site.baseurl}}/current-students/quick_links.html';">Quick Links</button>
+                        <button onclick="window.location.href='{{site.baseurl}}/current-students/graduation.html';">Graduation</button> 
+                        <button onclick="window.location.href='{{site.baseurl}}/current-students/forms.html';">Forms</button>
+                    </aside> 
+                </div>
+                <div id="menu1" class="tab-pane fade">
+                  <aside class= col-3 id="mobile-aside">
+                    <button onclick="window.location.href='{{site.baseurl}}/current-students/programs.html';">Programs</button>
+                    <button onclick="window.location.href='{{site.baseurl}}/current-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>
+                    <button onclick="window.location.href='{{site.baseurl}}/current-students/jobs.html';">Jobs</button>
+                    <button onclick="window.location.href='{{site.baseurl}}/current-students/enrollment.html';">Enrollment</button>
+                    <button onclick="window.location.href='{{site.baseurl}}/current-students/faq.html';">FAQ</button>
+                    <button onclick="window.location.href='{{site.baseurl}}/current-students/quick_links.html';">Quick Links</button>
+                    <button onclick="window.location.href='{{site.baseurl}}/current-students/graduation.html';">Graduation</button> 
+                    <button onclick="window.location.href='{{site.baseurl}}/current-students/forms.html';">Forms</button>
+                </aside>  
+                <section id=accordion-content class=col-8>
+                  {% for post in site.posts %}
+
+                     {% if post.categories contains page.categories[1] %}      
+
+                         {% if post.subtitle == "Subsection" %}
+
+                              {% unless post.program == "CS" %}
+                                  
+                                  {% unless post.nonCurrent == "exclude" %}
+
+                                     {% include accordions.html %}
+                      
+                                  {% endunless %}
+                    
+                              {% endunless %}
+                           
+
+                         {% endif %}
+                         
+                     {% endif %}
+       
+                   {% endfor %}
+
+                   <div>
+                    <button class="accordion">FAQ</button>
+                    <div class="panel">
+                     <input type="text" id="myInput" class="search_faq" onkeyup="searchFunction()" placeholder="Search">
+                       {% for post in site.posts %}
+
+                         {% if post.categories contains page.categories[1] %}      
+
+                             {% if post.subtitle == "FAQ" %}
+                             
+                             {% include accordions.html %}
+
+
+                             {% endif %}
+
+                         {% endif %}
+           
+                       {% endfor %}
+                     </div>
+            
+                    </div>
+                   </section>
+                    <aside class= col-4 id="desktop-aside">
+                        <button onclick="window.location.href='{{site.baseurl}}/new-students/programs.html';">Programs</button>
+                        <button onclick="window.location.href='{{site.baseurl}}/current-students/tuition_and_scholarship.html';">Tuition and Scholarship</button>
+                        <button onclick="window.location.href='{{site.baseurl}}/current-students/jobs.html';">Jobs</button>
+                        <button onclick="window.location.href='{{site.baseurl}}/current-students/enrollment.html';">Enrollment</button>
+                        <button onclick="window.location.href='{{site.baseurl}}/current-students/faq.html';">FAQ</button>
+                        <button onclick="window.location.href='{{site.baseurl}}/current-students/quick_links.html';">Quick Links</button>
+                        <button onclick="window.location.href='{{site.baseurl}}/current-students/graduation.html';">Graduation</button> 
+                        <button onclick="window.location.href='{{site.baseurl}}/current-students/forms.html';">Forms</button>
+                    </aside>
+                </div>
+              </div>
+            </div>
         </div>
-        <script>
-            var acc = document.getElementsByClassName("accordion");
-            var i;
-    
-            for (i = 0; i < acc.length; i++) {
-                acc[i].addEventListener("click", function() {
-                    /* Toggle between adding and removing the "active" class,
-                    to highlight the button that controls the panel */
-                    this.classList.toggle("active");
-    
-                /* Toggle between hiding and showing the active panel */
-                    var panel = this.nextElementSibling;
-                    if (panel.style.display === "block") {
-                      panel.style.display = "none";
-                    } else {
-                      panel.style.display = "block";
-                }
-              });
+        {% include information.html %}
+      </main>
+      {% include footer.html %}
+      <script>
+        $('.js-tooltip').tooltip();
+         var acc = document.getElementsByClassName("accordion");
+         var i;
+   
+         for (i = 0; i < acc.length; i++) {
+             acc[i].addEventListener("click", function() {
+                 /* Toggle between adding and removing the "active" class,
+                 to highlight the button that controls the panel */
+                 this.classList.toggle("active");
+   
+             /* Toggle between hiding and showing the active panel */
+                 var panel = this.nextElementSibling;
+                 if (panel.style.display === "block") {
+                   panel.style.display = "none";
+                 } else {
+                   panel.style.display = "block";
+             }
+           });
+         }
+   
+     $(document).ready(function() {
+        var Path = window.location.href;
+        Path = Path.split("/");
+        var getLastParameter = Path[Path.length-1];
+        const selectedAccordion = getLastParameter.split("?");
+          var selectedCategory = selectedAccordion[0];
+          var header = document.getElementsByTagName("aside");
+          for (var i = 0; i < header.length; i++) {
+            var btns = header[i].children;
+            for (var j = 0; j < btns.length; j++) {
+              btns[j].className  =  btns[j].className.replace(" activeTab", "");
+              var basUri = btns[j].outerHTML;
+              var hrefValue = $(basUri).attr("onclick");
+              basUri = hrefValue.split("/");
+              var selectedasidebtn = basUri[basUri.length-1].replace("';","");
+              if(selectedCategory == selectedasidebtn) {
+                btns[j].className += " activeTab";
+                  if(selectedAccordion.length > 1){
+                    var lastParameterURL  = selectedAccordion[1].substring(3);
+                    var openAccordiondefault = lastParameterURL;
+                      if(!(lastParameterURL.includes('.html'))) {
+                          const openAccordion =  openAccordiondefault;
+                          var  currentNode =  document.getElementById(openAccordion);
+                          var currentAccordion = currentNode.previousElementSibling;
+                          console.log("currentNode",currentNode);
+                          currentAccordion.scrollIntoView({
+                            block: 'start',
+                            behavior: 'smooth',
+                            inline: 'end'
+                          }); 
+                        $("#"+openAccordiondefault).collapse('toggle');             
+                          return;
+                      }  
+                  }
+
+              }
             }
-        </script>
-    </main>
-    {% include footer.html %}
-</body>
-<html>
+          }
+      });
+      
+  function searchFunction() {
+    var input, filter, li, a, i, txtValue,accordionPanel;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    li = document.getElementsByClassName("accordion");
+    accordionPanel = document.getElementsByClassName("panel");
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+
+     if(li[i].children.length > 0){
+      a = li[i].children[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+      } else {
+        li[i].style.display = "none";
+      }
+     }
+
+    //  for (i = 0; i < accordionPanel.length; i++) {
+
+    //     if(accordionPanel[i].children.length > 0){
+    //     a = accordionPanel[i].children[0];
+    //     txtValue = a.textContent || a.innerText;
+    //     if (txtValue.toUpperCase().indexOf(filter) > -1) {
+    //       accordionPanel[i].style.display = "";
+    //     } else {
+    //       accordionPanel[i].style.display = "none";
+    //     }
+    //   }
+
+     
+    }
+  }
+      
+        $('#accordions').on('click', function () {
+           $('.panel').collapse('toggle');
+       });
+         
+     </script>
+  </body>
+  <html>
+  

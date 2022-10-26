@@ -1,10 +1,11 @@
 ---
 title: "Note: First time students are directly enrolled into the courses."
+subtitle: "FAQ"
 categories:
+    - FAQ
     - advising-question
-    - enrollment
     - new
     - current
 ---
 For more info, click the following video link: 
-[https://www.youtube.com/watch?v=ue5hi0jD4Sg&t=9s](https://www.youtube.com/watch?v=ue5hi0jD4Sg&t=9s)
+<a href="https://www.youtube.com/watch?v=ue5hi0jD4Sg&t=9s" target="blank"> https://www.youtube.com/watch?v=ue5hi0jD4Sg&t=9s</a>
