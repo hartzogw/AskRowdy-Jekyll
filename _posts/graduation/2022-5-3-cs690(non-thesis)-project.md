@@ -10,7 +10,7 @@ categories:
 
 <h3> CS 690 - Graduate Project for non-thesis students</h3>
 
-Graduate Project is *0 credit mandatory* course for **non-thesis students** who are doing purely coursework.
+Graduate Project is *0 credit mandatory* course and is important for CPT , applicable to **non-thesis students** who are doing purely coursework.
 
 **The learning outcomes for grad project are:**
 
