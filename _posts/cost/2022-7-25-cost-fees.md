@@ -10,3 +10,5 @@ categories:
 To access Cost & Fees:
 
 <a href="https://semo.edu/student-support/financial-services/cost/index.html" target="blank">Click Here </a>
+
+Please email **sfs@semo.edu** for more details

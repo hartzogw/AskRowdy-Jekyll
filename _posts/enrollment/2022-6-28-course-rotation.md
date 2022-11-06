@@ -18,7 +18,7 @@ categories:
 
 Note: These schedules are subject to change based on student needs and faculty availability. 
 
-Pls, verify on *<a href="http://portal.semo.edu" target="blank">portal.semo.edu*</a>for the latest course schedule.
+Pls, verify on *<a href="https://my.semo.edu/dashboard" target="blank">portal.semo.edu*</a>for the latest course schedule.
 # Course Rotation (core courses)
 
 Pre-requisite courses (CS500, CS503) - Spring, Summer, Fall
@@ -30,11 +30,11 @@ The elective course schedule varies as per student requirements.
 **Core courses**:
 
 - CY501 - Spring, Fall
-- CS 506 - Spring
-- CS 591 - Spring & Summer (odd)
-- CY 605 - Summer
+- CS 506 - Spring, Fall
+- CS 591 - Spring ,Fall & Summer (odd)
+- CY 605 - Summer, Spring, Fall
 - CS 609 - Spring, Fall
-- CS 630 - Spring
+- CS 630 - Spring, Fall
 
 ## 🔐Cybersecurity (CY)
 
@@ -48,4 +48,4 @@ The elective course schedule varies as per student requirements.
 
 Note: These schedules are subject to change based on student needs and faculty availability. 
 
-Pls, verify on *<a href="http://portal.semo.edu" target="blank">portal.semo.edu*</a>for the latest course schedule.
+Pls, verify on *<a href="https://my.semo.edu/dashboard" target="blank">portal.semo.edu*</a>for the latest course schedule.

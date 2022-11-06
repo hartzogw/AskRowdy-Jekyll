@@ -8,4 +8,19 @@ categories:
  - new
 
 ---
- For successful transfer of credit, please email Dr. Mitra (rmitra@semo.edu) your official transcript. Also, submit the following information in a Microsoft Word document: student Name: Student Southeast ID: Course Transfer Details:.
+ For successful transfer of credit, please email Dr. Mitra (rmitra@semo.edu) your official transcript. 
+ 
+ Also, submit the following information in a Microsoft Word document: 
+
+ 
+ student Name: 
+
+
+ Student Southeast ID: 
+
+
+ Course Transfer Details:
+
+
+
+The department will check all the details and email you the progress.
