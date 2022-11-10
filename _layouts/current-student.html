@@ -110,7 +110,7 @@
 
                    <div>
                     {% unless page.categories[1] == "FAQ" %}
-                    <button class="accordion">FAQ</button>
+                    <button class="accordion faq">FAQ</button>
                     <div class="panel">
                       <input type="text" id="myInput" class="search_faq" onkeyup="searchFunction()" placeholder="Search">
                         {% for post in site.posts %}
@@ -199,7 +199,7 @@
                    {% endfor %}
 
                    <div>
-                    <button class="accordion">FAQ</button>
+                    <button class="accordion faq">FAQ</button>
                     <div class="panel">
                      <input type="text" id="myInput" class="search_faq" onkeyup="searchFunction()" placeholder="Search">
                        {% for post in site.posts %}
@@ -290,7 +290,6 @@
                           const openAccordion =  openAccordiondefault;
                           var  currentNode =  document.getElementById(openAccordion);
                           var currentAccordion = currentNode.previousElementSibling;
-                          console.log("currentNode",currentNode);
                           currentAccordion.scrollIntoView({
                             block: 'start',
                             behavior: 'smooth',
