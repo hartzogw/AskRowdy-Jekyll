@@ -1,5 +1,5 @@
 ---
-title: " How can I Know who is my advisor? "
+title: " How can I know who is my advisor? "
 subtitle: "FAQ"
 faqselect: "current"
 categories:

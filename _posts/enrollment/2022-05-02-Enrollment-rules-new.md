@@ -60,4 +60,5 @@ categories:
 8. To complete enrollment process, only need to "Submit Changes"
 
 
-**If you encounter any problems, send an email to your faculty advisor (only one detailed email to your faculty advisor and do not CC anyone else). Your faculty advisor will process your email in the order received and will let you know what to do. Sending more than one email and to different people is not professional and may delay the response. If you don’t receive an answer within 3-5 days, send another reminder.**
+<font color =red >If you encounter any problems, send an email to your faculty advisor (only one detailed email to your faculty advisor and do not CC anyone else).</font> 
+**Your faculty advisor will process your email in the order received and will let you know what to do. Sending more than one email and to different people is not professional and may delay the response. If you don’t receive an answer within 3-5 days, send another reminder.**

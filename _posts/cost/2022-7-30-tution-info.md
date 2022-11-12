@@ -68,3 +68,6 @@ categories:
         </div><a href="https://semo.edu/student-support/financial-services/cost/index.html" target="blank">Cost &amp; Fees</a>
     </div>
 </div>
+
+
+Please email **sfs@semo.edu** for more details

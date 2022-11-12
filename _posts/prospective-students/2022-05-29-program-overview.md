@@ -16,4 +16,4 @@ The computer science masters program helps enhance your technical and profession
 - Learn thoretical computer science, software construction, data analytics, cloud computing and more.
 - Develop software applicaitons. 
 - Gain critical resoning and technical writing skills.
-- Work closel with faculty advisors armed with professional/industrial background. 
+- Work closely with faculty advisors armed with professional/industrial background. 

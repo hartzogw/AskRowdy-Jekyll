@@ -9,9 +9,9 @@ categories:
     - programs
     
 ---
-Curriculum for Cybersecurity (30 hours)
+<h4>Curriculum for Cybersecurity <font color= tomato > (30 hours) </font></h4>
 
-<h3> Core Requirements:</h3>
+<h4> Core Requirements:</h4>
 
 -	CY501 Introduction to Cybersecurity (3)
 -	CY510 Information Security and Assurance (3)

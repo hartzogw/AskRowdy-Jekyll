@@ -1,5 +1,5 @@
 ---
-title: "CS690(Non Thesis)"
+title: "CS 690 - Graduate Project for non-thesis students"
 subtitle: "Subsection"
 categories:
     - graduation
@@ -7,8 +7,6 @@ categories:
    
     
 ---
-
-<h3> CS 690 - Graduate Project for non-thesis students</h3>
 
 Graduate Project is *0 credit mandatory* course and is important for CPT , applicable to **non-thesis students** who are doing purely coursework.
 
@@ -21,6 +19,6 @@ Graduate Project is *0 credit mandatory* course and is important for CPT , appli
 You will be revisiting and documenting your past projects. There will be 3-4 submissions through the semester. No original project required.
 
 <aside>
-💡 This is typically offered only during **Spring/Fall**. You cannot enroll in this course during Summer.
+💡 This is typically offered only during <b>Spring/Fall.</b> You cannot enroll in this course during Summer.
 
 </aside>

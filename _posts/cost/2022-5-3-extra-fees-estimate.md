@@ -10,7 +10,7 @@ categories:
 ---
 Usually for grad-level courses, most of the faculty provides slides and other reference links and handouts on the course page.So, cost of each course is minimal to nil.  
 
-**You can borrow books from library and return them back after your semester. Cost for each book would be around $40. **
+**You can borrow books from library and return them back after your semester. Cost for each book would be around $40.**
 
 You may choose to purchase second hand textbooks on Amazon, Ebay, etc., if necessary. 
 
