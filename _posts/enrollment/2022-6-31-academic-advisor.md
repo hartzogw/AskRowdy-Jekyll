@@ -10,7 +10,7 @@ categories:
 
 <h3>Academic Advising</h3>
 
-Advisors can assist with enrolling in classes, declare/changing your major or minor, and providing overall support to successfully graduate. Academic advisors are available by appointment.
+Advisors can assist with enrolling in classes and providing overall support to successfully graduate. Academic advisors are available by appointment.
 
 Please reach out to your advisor over *email* or show up during the *office hours*. 
 

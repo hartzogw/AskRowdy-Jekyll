@@ -1,5 +1,5 @@
 ---
-title: "CS697/CS698(Thesis Research)"
+title: "CS697/CS698 (Thesis Research)"
 subtitle: "Subsection"
 categories:
     - graduation
@@ -7,9 +7,8 @@ categories:
    
     
 ---
-<h3> Thesis</h3>
 
-Student will find a faculty member that will serve as his/her **thesis advisor**. They ****will work closely with his/her thesis advisor, as well as the committee.
+Student will find a faculty member that will serve as his/her **thesis advisor**. They **will work closely with his/her thesis advisor, as well as the committee.**
 
 **Thesis committee**: Second reader (from CS dept. and non-thesis faculty member)
 

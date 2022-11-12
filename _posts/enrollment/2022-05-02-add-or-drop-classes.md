@@ -1,5 +1,5 @@
 ---
-title: "Where to find add or drop classes in mysemo.edu?"
+title: "Where to find add or drop classes in my.semo.edu?"
 subtitle: "FAQ"
 faqselect: "current"
 categories:

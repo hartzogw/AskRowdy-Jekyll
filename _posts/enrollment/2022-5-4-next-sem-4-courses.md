@@ -14,7 +14,9 @@ categories:
 
 3. The Student must add three courses for the next semester and then the student contacts advisor   AFTER the grades of the current semester are out and report their latest data point about their academic performance. If the following criteria is met, the student may ask for the 4th course.  Note: meeting the criteria does not guarantee the approval of adding the fourth course. Advisor may consider other factors and reject the request.
 
-    • Student must be of good academic standing (no C grades) 
+    a. Student must be of good academic standing (no C grades) 
 
-    • The GPA after the end of the current semester is GPA>=3.7 (this is excluding pre-requisite courses)  
+    b. The GPA after the end of the current semester is GPA>=3.7 (this is excluding pre-requisite courses)  
+
+We want you to do well in the courses and succeed in the program. Please pace yourself and demonstrate sufficient progress. 😃 👍🏼
  

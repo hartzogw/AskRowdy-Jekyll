@@ -11,4 +11,6 @@ categories:
 ---
 Students with *regular admit* can take core courses first. You need to complete all core courses during 3-4 semesters at Southeast.
 
+**All the courses have CY501 as Pre or Co Requisite, So please plan on taking CY501 in your very first semester.**
+
 If you have provisional admit, you need to take CS500, CS503 and CY501 in your first semester.

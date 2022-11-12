@@ -4,8 +4,6 @@ subtitle: "FAQ"
 faqselect: "current"
 categories:
     - FAQ
-    - admission
-    - prospective
-    - new
+    - job
 ---
-Yes, it does. Dropping a semester is not recommended and to drop a semster you need to have approval from the international office.
+Yes. Dropping a semester is not recommended for internatinal students under any emergency, Please contact international office for approval regarding your I-20.
