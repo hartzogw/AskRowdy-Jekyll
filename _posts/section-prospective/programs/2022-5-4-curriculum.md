@@ -3,8 +3,9 @@ title: Curriculum
 program: "CS"
 category: prospective-student-program
 ---
-Curriculum checklist for Applied Computer Science (30 hours)
-## Core Requirements:
+#### Curriculum checklist for Applied Computer Science  <Font color = red>(30 hours)</Font>
+
+#### Core Requirements:
 - CY501 Introduction to Cybersecurity (3)
 - CS506 Distributed Cloud Computing (3)
 - CS591 Advanced Artificial Intelligence (3)
@@ -12,19 +13,19 @@ Curriculum checklist for Applied Computer Science (30 hours)
 - CS609 Advanced Programming Languages (3)
 - CS630 Current Topics in Human Computer Interaction (3)
 
-### Choose one of the following thesis options:
+#### Choose one of the following thesis options:
 - CY655 Research Methods in Cybersecurity (3)
 - CY691 Thesis Research I (3)
 - CY692 Thesis Research II (3)
 - GR699 Master's Oral Examination (0)
 - Choose 6 hours with advice of advisor (6)
 
-### Non Thesis Options: 
+#### Non Thesis Options: 
 - CY690 Graduate Project (3)
 - GR698 Master's Final Comprehensive Examination (0)
 - Choose 15 hours with advice of advisor (15)
 
-## Electives may be chosen from the following with the advice of advisor:
+#### Electives:
 - CS505 Data Mining (3)
 - CS560 Computer Architecture (3)
 - CS575 Advanced Web Development (3)
@@ -49,5 +50,5 @@ Curriculum checklist for Applied Computer Science (30 hours)
 - CY620 Computer Forensics (3)
 - Any relevant course from other departments and listed as electives - up to 6 hours 
 
-### All courses may be taken once for credit on program 
-## For more details visit *[university website](https://semo.edu/academics/programs/business-computing/graduate/ms-applied-cs.html)*.
+#### All courses may be taken once for credit on program 
+#### For more details visit *[university website](https://semo.edu/academics/programs/business-computing/graduate/ms-applied-cs.html)*.

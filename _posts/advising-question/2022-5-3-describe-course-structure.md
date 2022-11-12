@@ -9,6 +9,4 @@ categories:
     - new
     - current
 ---
-Each Professor designs the course independently. <br>
-Please ask for “Syllabus” document from your course professor. <br>
-we do not maintain a syllabus of each course.
+Each Professor designs the course independently, Please ask for “Syllabus” document from your course professor. We do not maintain a syllabus of each course.
