@@ -1,5 +1,12 @@
 <html lang="en">
 <head>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EJETJWGGNP');
+  </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{site.baseurl}}/styles/styles.css">
@@ -8,6 +15,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/b15ad03e0d.js" crossorigin="anonymous"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EJETJWGGNP"></script>
     <title>Help Center: CS Grad Student</title>
 </head>
 <body>
@@ -102,7 +110,7 @@
 
                    <div>
                     {% unless page.categories[1] == "FAQ" %}
-                    <button class="accordion">FAQ</button>
+                    <button class="accordion faq">FAQ</button>
                     <div class="panel">
                       <input type="text" id="myInput" class="search_faq" onkeyup="searchFunction()" placeholder="Search">
                         {% for post in site.posts %}
@@ -191,7 +199,7 @@
                    {% endfor %}
 
                    <div>
-                    <button class="accordion">FAQ</button>
+                    <button class="accordion faq">FAQ</button>
                     <div class="panel">
                      <input type="text" id="myInput" class="search_faq" onkeyup="searchFunction()" placeholder="Search">
                        {% for post in site.posts %}
@@ -251,12 +259,19 @@
          }
    
      $(document).ready(function() {
+      var expandFaq = document.getElementsByClassName("faq");
+        expandFaq[0].classList.add("active");
+        var panel = expandFaq[0].nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
         var Path = window.location.href;
         Path = Path.split("/");
         var getLastParameter = Path[Path.length-1];
         const selectedAccordion = getLastParameter.split("?");
           var selectedCategory = selectedAccordion[0];
-          var openAccordiondefault = lastParameterURL;
           var header = document.getElementsByTagName("aside");
           for (var i = 0; i < header.length; i++) {
             var btns = header[i].children;
@@ -270,18 +285,20 @@
                 btns[j].className += " activeTab";
                   if(selectedAccordion.length > 1){
                     var lastParameterURL  = selectedAccordion[1].substring(3);
+                    var openAccordiondefault = lastParameterURL;
                       if(!(lastParameterURL.includes('.html'))) {
                           const openAccordion =  openAccordiondefault;
                           var  currentNode =  document.getElementById(openAccordion);
                           var currentAccordion = currentNode.previousElementSibling;
-                          console.log("currentNode",currentNode);
                           currentAccordion.scrollIntoView({
                             block: 'start',
                             behavior: 'smooth',
                             inline: 'end'
                           }); 
-                        $("#"+openAccordiondefault).collapse('toggle');             
-                          return;
+                          $("#"+openAccordiondefault).collapse('toggle');   
+                         const expandsharedpost = document.getElementById(openAccordiondefault);
+                         const expandButton = expandsharedpost.previousElementSibling;
+                         expandButton.classList.add("active");             
                       }  
                   }
 
@@ -325,9 +342,28 @@
     }
   }
       
-        $('#accordions').on('click', function () {
-           $('.panel').collapse('toggle');
-       });
+  $('#accordions').on('click', function (e) {
+    //  const checkClassExists =  e.currentTarget.classList.contains("expanded");
+    //  if(checkClassExists){
+    //    e.currentTarget.classList.remove("expanded");
+    //  } else {
+    //    e.currentTarget.classList.add("expanded");
+    //  }
+
+      console.log("e",e.currentTarget);
+        const expandAllpost = document.getElementsByClassName("panel");
+        for (var i=0; i< expandAllpost.length; i++){
+          const expandButton = expandAllpost[i].previousElementSibling;
+          if (expandAllpost[i].style.display === "block") {
+            expandButton.classList.remove("active"); 
+            expandAllpost[i].style.display = "";
+          } else {
+            expandButton.classList.add("active"); 
+            expandAllpost[i].style.display = "block";
+          }
+        }
+
+    });
          
      </script>
   </body>
