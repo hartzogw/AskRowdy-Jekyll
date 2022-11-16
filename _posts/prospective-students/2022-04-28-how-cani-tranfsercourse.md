@@ -9,9 +9,9 @@ categories:
 ---
 #### How can I transfer the courses?
 
- For successful transfer of credit, please email Dr. Mitra (rmitra@semo.edu) your official transcript. 
+ For successful transfer of credit, please email Dr. Mitra (rmitra@semo.edu) your <font color="red">official transcript. </font>
  
- Also, submit the following information in a Microsoft Word document: 
+ Also, submit the following information in a Microsoft <font color="red"> Word document: </font>
 
  
  student Name: 
@@ -22,6 +22,36 @@ categories:
 
  Course Transfer Details:
 
+<table class="table">
+<thead>
+  <tr>
+    <th><mark>Course Name in Past University</mark></th>
+    <th><mark>Name of university from which course is transferred</mark></th>
+    <th><mark>SEMO Courses</mark></th>
+    <th><mark>Year Taken</mark></th>
+    <th><mark>Grades Earned</mark></th>
+
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>&lt;course number&gt; <br> &lt;My course1 &gt;</td>
+    <td>University of Missouri</td>
+    <td>&lt;Course number&gt; Refer to advising form</td>
+    <td>Spring &lt; Year &gt; </td>
+    <td>A</td>
+
+  </tr>
+  <tr>
+    <td>CSC 501 Intro to Cybersecurity</td>
+    <td>                            </td>
+    <td>CY 501 Intro to Cybersecurity</td>
+    <td>Spring &lt; Year &gt;</td>
+    <td>B</td>
+  </tr>
+   </tbody>
+</table>
+<br>
 
 
 The department will check all the details and email you the progress.
@@ -64,14 +94,9 @@ You'll get personal support at Southeast to answer any questions and help guide 
 Plan and track your Sotheast degree from your first semester of college with a professional transfer mentor: You'll do that here. The transfer mentor will provide you with personal support while you are enrolled at a community college and through your first semester of enrollment of Southeast.
 <a href="https://semo.edu/admissions/requirements/transfer-mentor.html" target="blank">Click Here</a> for more information on the Transfer Mentor Program 
 
-
-#### What courses can be transfered?
-
-12 hours of transfer credit (4 courses) NOT older than 6 years may be applied to a graduate program. - These credits must be related to computer science (any non-cs courses cannot be transferred). - You must have earned a 'B' or higher in the transferable courses. - Transfer courses do not count toward meeting 600-level requirements.
-
 #### How to transfer credit?
 
-In all cases, over one-half of the coursework required in a degree program must be completed at the Cape Girardeau campus, the university’s Regional Campuses and Center, or through Southeast Online. Transfer courses do not count toward meeting the residence or 600-level requirements. No more than 12 hours of transfer credit or credit older than 6 years may be applied to a graduate program. Transfer credit must be accepted by the major advisor and is applied to a program at candidacy. Before enrolling for credit at another institution, prior approval must be obtained from the major advisor. Only credit in which a 'B' or better was earned will be accepted for transfer. Credit for transfer is only acceptable if earned from a regionally accredited institution. For programs in education, off-campus credit earned from a non-NCATE accredited institution will not be accepted.
+In all cases, over one-half of the coursework required in a degree program must be completed at the Cape Girardeau campus, the university’s Regional Campuses and Center, or through Southeast Online. Transfer courses do not count toward meeting the residence or <mark>600-level requirements.</mark> No more than <mark>12 hours of transfer credit or credit older than 6 years </mark> may be applied to a graduate program. Transfer credit must be accepted by the major advisor and is applied to a program at candidacy. Before enrolling for credit at another institution, prior approval must be obtained from the major advisor. <mark>Only credit in which a 'B' or better</mark> was earned will be accepted for transfer. Credit for transfer is only acceptable if earned from a regionally accredited institution. For programs in education, off-campus credit earned from a non-NCATE accredited institution will not be accepted.
 
 <!-- **Source**: <a href="https://semo.edu/pdf/Grad-GradBulletin201819.pdf" target="blank" >https://semo.edu/pdf/Grad-GradBulletin201819.pdf</a> -->
 
@@ -79,10 +104,7 @@ We look forward to hearing more from you!
 
 #### Whether courses can be transferred?
 
-12 hours of transfer credit (4 courses) NOT older than 6 years may be applied to a graduate program
-
-Provided they are Computer Science related courses. Any non-CS courses cannot be transferred. 
-
-You must have earned a ‘B’ or above grade in those courses.
-
-Transfer courses do not count toward meeting 600-level requirements.
+<font color="red"> 12 hours of transfer credit (4 courses) NOT older than 6 years may be applied to a graduate program </font> <br> 
+- Provided they are Computer Science related courses. Any non-CS courses cannot be transferred. 
+- You must have earned a ‘B’ or above grade in those courses. 
+- Transfer courses do not count toward meeting 600-level requirements.
