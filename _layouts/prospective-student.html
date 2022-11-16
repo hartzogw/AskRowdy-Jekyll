@@ -115,9 +115,12 @@
                             {% if post.categories contains page.categories[1] %}      
   
                                 {% if post.subtitle == "FAQ" %}
+
+                                {% unless post.faqselect == "current" %}
                                 
                                 {% include accordions.html %}
-  
+
+                                {% endunless %}
   
                                 {% endif %}
   
@@ -200,9 +203,13 @@
                           {% if post.categories contains page.categories[1] %}      
 
                               {% if post.subtitle == "FAQ" %}
+                               
+                              {% unless post.faqselect == "current" %}
+
                               
                               {% include accordions.html %}
 
+                              {% endunless %}
 
                               {% endif %}
 
