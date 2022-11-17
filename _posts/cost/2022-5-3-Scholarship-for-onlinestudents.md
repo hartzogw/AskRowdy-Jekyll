@@ -1,5 +1,5 @@
 ---
-title: scholarships for online students
+title: Scholarships for Online students
 subtitle: "FAQ"
 categories:
     - FAQ
@@ -10,4 +10,5 @@ categories:
     - prospective
 ---
 
-No departmental support for online students right now. Online students work on reduced course fee as compared to our on-campus student.
+No departmental support for online students right now. <br>
+Online students pay reduced course fees when compared to our on-campus students.

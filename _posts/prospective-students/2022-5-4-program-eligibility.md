@@ -13,7 +13,7 @@ Completed at least 6 hours of science and 6 hours of mathematics in undergraduat
 
 2. This can be lowered to 2.7 under special cases such as 
 
-    a. GRE score, OR 
+    a. High GRE score, OR 
 
     b. significant industry experience in Computer Science, IT or related fields, OR 
 

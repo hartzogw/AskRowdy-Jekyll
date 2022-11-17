@@ -13,8 +13,7 @@ students must be enrolled in a degree-seeking program and enrolled in a minimum 
 
 During summer and breaks, students may be eligible for additional hours, based on the approval of their supervisor. &nbsp;
 
-High school, provisionally admitted students, Cape College Center students,
-and students enrolled in the&nbsp;intensive English&nbsp;program are not eligible to work on campus. &nbsp;
+Students enrolled in the&nbsp;intensive English&nbsp;program are not eligible to work on campus. &nbsp;
 
 The&nbsp; <a href="https://semo.edu/student-support/career-support/career-services/index.html" target="blank"> Office of Career Services </a>  posts available student worker positions on <a href="https://semo.edu/student-support/career-support/career-services/redhawk-jobs.html" target="blank">REDHAWKjobs.com</a>
 

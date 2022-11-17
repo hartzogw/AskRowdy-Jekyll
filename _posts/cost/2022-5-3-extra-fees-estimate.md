@@ -1,5 +1,5 @@
 ---
-title: "Do you have a rough estimate of the extra fees like textbooks, miscellaneous fees etc.? : "
+title: "Extra fees (e.g. textbooks, miscellaneous fees)"
 subtitle: "FAQ"
 categories:
     - FAQ
@@ -8,9 +8,9 @@ categories:
     - prospective
     - new
 ---
-Usually for grad-level courses, most of the faculty provides slides and other reference links and handouts on the course page.So, cost of each course is minimal to nil.  
+Usually for grad-level courses, most of the faculty provides slides and other reference links and handouts on the course page. So, additional cost for each course is minimal.
 
-**You can borrow books from library and return them back after your semester. Cost for each book would be around $40.**
+**Sometimes you can borrow books from book rentals and return them back after your semester. Cost for each book will be around $40.**
 
 You may choose to purchase second hand textbooks on Amazon, Ebay, etc., if necessary. 
 

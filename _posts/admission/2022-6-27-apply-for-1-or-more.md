@@ -8,4 +8,4 @@ categories:
     - prospective
 ---
 
-Yes.You can apply more than one program.
+Yes.You can apply for more than one program. For example, you can apply for both Computer Science and Cybersecurity.

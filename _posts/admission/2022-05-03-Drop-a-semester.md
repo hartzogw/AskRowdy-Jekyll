@@ -8,3 +8,5 @@ categories:
     - new
 ---
 Yes. Dropping a semester is not recommended for internatinal students under any emergency, Please contact international office for approval regarding your I-20.
+
+<a href="https://semo.edu/international/" target="blank">International Education And Services</a>

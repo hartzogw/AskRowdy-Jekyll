@@ -13,7 +13,8 @@ category: prospective-student-program
 - CS609 Advanced Programming Languages (3)
 - CS630 Current Topics in Human Computer Interaction (3)
 
-#### Choose one of the following thesis options:
+#### Choose one of the following:
+#### Thesis options:
 - CY655 Research Methods in Cybersecurity (3)
 - CY691 Thesis Research I (3)
 - CY692 Thesis Research II (3)

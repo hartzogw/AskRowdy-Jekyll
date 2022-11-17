@@ -23,9 +23,9 @@ table, th, td {
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">Spring</th>
+      <th scope="col">Fall / Spring</th>
       <th scope="col">Summer</th>
-      <th scope="col">Fall</th>
+      <th scope="col">Spring / Fall</th>
     </tr>
   </thead>
   <tbody>
@@ -57,9 +57,9 @@ table, th, td {
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">Spring</th>
+      <th scope="col">Fall / Spring</th>
       <th scope="col">Summer</th>
-      <th scope="col">Fall</th>
+      <th scope="col">Spring / Fall</th>
     </tr>
   </thead>
   <tbody>
@@ -87,9 +87,9 @@ table, th, td {
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">Spring</th>
+      <th scope="col">Fall / Spring</th>
       <th scope="col">Summer</th>
-      <th scope="col">Fall</th>
+      <th scope="col">Spring / Fall</th>
     </tr>
   </thead>
   <tbody>
