@@ -54,5 +54,7 @@ categories:
 - CY620 Computer Forensics (3)
 - Any relevant course from other departments and listed as electives - up to 6 hours 
 
+If you have provisional admit, you need to take CS500, CS503 and CY501 in your first semester.
+
 #### All courses may be taken once for credit on program 
-#### For more details visit *[university website](https://semo.edu/academics/programs/business-computing/graduate/ms-applied-cs.html)*.
+#### For more details visit <a href="https://semo.edu/academics/programs/business-computing/graduate/ms-applied-cs.html" target="blank">university website</a>

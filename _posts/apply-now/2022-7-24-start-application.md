@@ -2,6 +2,7 @@
 title: Start Application 
 subtitle: "Subsection"
 categories:
+    - admission
     - prospective
     - applynow
 ---

@@ -1,5 +1,5 @@
 ---
-title: "What is the average completion time for this online program?"
+title: "Average completion time for Master's Applied Computer Science online program?"
 subtitle: "FAQ"
 categories:
     - FAQ
@@ -7,4 +7,4 @@ categories:
     - prospective
     - new
 ---
-Depends on the student's schedule. It varies according to how many courses that you take per semester. 
+Depends on the student's schedule. It varies according to how many courses that you take per semester.It ranges from 1 to 2 years. 

@@ -9,7 +9,7 @@ categories:
 
 # **Independent Study**
 
-### **Can you tell us about Special topics and Independent Study?**
+### **Can you tell us about Independent Study?**
 
 As the name suggests, you will be studying CS/CY topics which are not covered during the regular coursework. 
 

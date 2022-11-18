@@ -1,5 +1,5 @@
 ---
-title: "What is the estimated timeframe (months) to complete each course?"
+title: "What is the estimated timeframe (months) to complete a Degree?"
 subtitle: "FAQ"
 categories:
     - FAQ
@@ -10,11 +10,6 @@ categories:
 ---
 
 
-<style>
-table, th, td {
-  border:1px solid black;
-}
-</style>
 ### Potential academic program layout (for Applied CS):
 
 #### 2 years, without summer class:
@@ -79,9 +74,9 @@ table, th, td {
 </table>
 <br> 
 
-#### 1 years with summer classes (domestic student only):
+#### 1 year with summer classes :
 
-
+**International students, please contact your Advisor**
 
 <table class="table" >
   <thead>
@@ -108,6 +103,9 @@ table, th, td {
   margin: 25px 0;
   font-size: 0.9em;
   min-width: 400px; 
+}
+table, th, td {
+  border:1px solid black;
 }
   </style>
 

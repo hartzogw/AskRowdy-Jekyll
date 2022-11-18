@@ -4,8 +4,7 @@ subtitle: "FAQ"
 categories:
     - FAQ
     - admission
-    - applynow
     - prospective
 ---
 
-Yes.You can apply for more than one program. For example, you can apply for both Computer Science and Cybersecurity.
+Yes.You can apply for more than one program. For example, you can apply for both Computer Science and Cybersecurity but you'll be admitted to only one program.
