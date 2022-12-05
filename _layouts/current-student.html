@@ -60,7 +60,7 @@
     <main>
         <div class="row">
           <div class="col-md-2">
-            {% include image.html %}
+            {% include quick-link.html %}
           </div>
           <div class="col-md-10">
             <button type="button" id="accordions" class="btn btn-danger">Expand/ Collapse All</button>
@@ -112,7 +112,7 @@
                     {% unless page.categories[1] == "FAQ" %}
                     <button class="accordion faq">FAQ</button>
                     <div class="panel">
-                      <input type="text" id="myInput" class="search_faq" onkeyup="searchFunction()" placeholder="Search">
+                      <input type="text" id="myInput" class="search_faq" onkeyup="searchFunction()" placeholder="Enter a keyword to filter questions">
                         {% for post in site.posts %}
 
                           {% if post.categories contains page.categories[1] %}      
@@ -132,7 +132,7 @@
                       {% if page.categories[1] == "FAQ"  %}
                       <div class="FAQ_list">
                       
-                      <input type="text" id="myInput" class="search_faq" onkeyup="searchFunction()" placeholder="Search">
+                      <input type="text" id="myInput" class="search_faq" onkeyup="searchFunction()" placeholder="Enter a keyword to filter questions">
                         {% for post in site.posts %}
 
                           {% if post.categories contains page.categories[1] %}      
@@ -201,7 +201,7 @@
                    <div>
                     <button class="accordion faq">FAQ</button>
                     <div class="panel">
-                     <input type="text" id="myInput" class="search_faq" onkeyup="searchFunction()" placeholder="Search">
+                     <input type="text" id="myInput" class="search_faq" onkeyup="searchFunction()" placeholder="Enter a keyword to filter questions">
                        {% for post in site.posts %}
 
                          {% if post.categories contains page.categories[1] %}      

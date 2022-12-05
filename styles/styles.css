@@ -244,6 +244,7 @@ aside-active {
     float: right;
     padding: 10px;
     margin: 10px;
+    width: 250px;
     border-radius: 15px;
 }
 .FAQ_list{
