@@ -127,12 +127,12 @@ header h1{
 #cs-cy-button button{
     background-color: #C8102E;
     border: none;
-    border-radius: .5em;
+    border-radius: .2em;
     color: white;
     text-align: center;
     font-family: Arial Black;
     font-size: .8em;
-    padding: .6em;
+    padding: 1em;
     margin-top: 0.75em;
     width: 20%;
     cursor: pointer;
@@ -151,7 +151,8 @@ header h1{
 }
 #img-content{
     max-width: 100%;
-    height: 20em;
+    height: 30em;
+    width: 250px;
 }
 
 
@@ -183,6 +184,7 @@ aside button {
     background-color: #5B6670;
     color: white;
     width:100%;
+    padding:1em;
     text-align: center;
     font: Arial Black;
     font-size: 1em;
@@ -202,7 +204,7 @@ aside-active {
     background-color: #A2AAAD;
     color: black;
     cursor: pointer;
-    padding: .5em 0 .5em 0;
+    padding: 1.5em 0 2.5em 0;
     margin-bottom: .2em;
     width: 100%;
     height: 6.5%;
@@ -213,24 +215,42 @@ aside-active {
     border-radius: .5em;
 }
 
+.shareLink{
+    float: right;
+    margin-right: 30px;
+
+}
+
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.accordion .active, .accordion:hover {
   background-color: #ccc;
 }
 
 .accordion:after {
-    content: '\25BC'; /* Unicode character for "plus" sign (+) */
-    font-size: 1.2em;
+    content: '\002B'; /* Unicode character for "plus" sign (+) */
+    font-size: 1.5em;
     color: white;
     float: right;
-    /*margin-left: .5em;
-    margin-right: .2em;*/
+    margin-top: -0.3em;
+    margin-right: 1em;
 }
 
-.active:after {
-  content: "\25B2"; /* Unicode character for "minus" sign (-) */
+.accordion.active:after {
+  content: "\002D"; /* Unicode character for "minus" sign (-) */
+  font-size: 1.8em;
 }
 
+.search_faq{
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 15px;
+}
+.FAQ_list{
+    height: 500px;
+    overflow-y: scroll;
+}
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
@@ -238,6 +258,8 @@ aside-active {
   border-color: #5B6670;
   border-style: solid;
   border-radius: .5em;
+  max-height: 300px;
+  overflow-y: scroll;
   display: none;
   /*overflow: hidden;*/
 }
@@ -278,6 +300,7 @@ aside-active {
 
 #nav_menu ul li a.current {
     text-decoration-color: black;
+    color:#C8102E;
 }
 #nav_menu ul li a:hover {
     text-decoration-color: black;
@@ -343,4 +366,13 @@ li a.nav-current {
     header h1{
         font-size: 1em;
     }
+}
+.center{
+    margin: auto;
+    width: 80%;
+    border: 3px solid #C8102E;
+    padding: 20px;
+}
+.disclaimer{
+    padding: 20px 0px;
 }
